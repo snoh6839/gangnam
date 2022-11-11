@@ -1,14 +1,5 @@
-@import "var.css";
 @import "initial.css";
 
-@import "bootstrap.css";
 @import "fontawsome.css";
-@import "sweet-alert.css";
-@import "toastr.css";
-@import "swiper.css";
-@import "slick.css";
 
-@@import "font.css";
-
-@import "component.css";
 @import "main.css";
