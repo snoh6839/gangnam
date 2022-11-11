@@ -1,25 +1,25 @@
 //layout 공통
 
 .hd-top-wrap {
-    background: #fff;
-    border-bottom: 1px solid #d2d2d2;
+    background: $mainBg;
+    border-bottom: 1px solid $borderColorPrimary;
     .header_inner {
-        max-width: 1320px;
+        max-width: $maxWidth;
         margin: 0 auto;
         display: block;
         position: relative;
         z-index: 105;
-        .htl-style {
+        .ht1-style {
             float: left;
             position: relative;
             z-index: 100;
-            ul .tab-dp1 {
+            ul .ht-main-menu {
               float: left;
               position: relative;
               a {
                 display: block;
                 position: relative;
-                font-size: 14px;
+                font-size: $fontSizeSamll;
                 line-height: 24px;
                 padding: 8px 15px;
               }
@@ -28,27 +28,27 @@
                   font-weight: bold;
                 }
               }
-              .ht-dp2 {
+              .ht-sub-menu {
                 display: none;
                 position: absolute;
                 left: 0;
                 top: 100%;
                 z-index: 10001;
                 min-width: 500px;
-                background: #fff9f9;
+                background: $subBg;
                 box-shadow: 1px 2px 6px rgba(0,0,0,50%);
                 li {
                   width: 50%;
                   float: left;
                   padding-left: 30px;
                   &:nth-child(odd){
-                    border-right: 1px solid #fce4e4;
+                    border-right: 1px solid $listBorderColor;
                   }
                   a {
                     position: relative;
                     display: inline-block;
                     padding: 8px 0;
-                    font-size: 13px;
+                    font-size: $fontSizeTniy;
                   }
                 }
               }
