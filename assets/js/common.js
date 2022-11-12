@@ -1,6 +1,7 @@
 'use strict'
 
 $(function(){
+	
 	$('.weather-tic').slick({
 		vertical : true,
 		dots : false,
@@ -8,4 +9,6 @@ $(function(){
 		autoplay : true,
 		autoplaySpeed : 5000,
 	})
+
+
 });
