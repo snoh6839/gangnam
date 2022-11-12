@@ -79,3 +79,9 @@ body {
 .green {
   color: #01b56e;
 }
+
+.depth1 , .sub-outer {
+  transition-duration: .25s;
+  transition-property: all;
+  transition-timing-function: linear;
+}
