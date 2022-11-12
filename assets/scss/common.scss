@@ -80,8 +80,16 @@ body {
   color: #01b56e;
 }
 
-.depth1 , .sub-outer {
+.depth1 , .sub-outer, .depth_list2, .depth2_item, .depth3, .depth_list3 {
   transition-duration: .25s;
   transition-property: all;
   transition-timing-function: linear;
+}
+
+.after {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
 }

@@ -239,6 +239,60 @@
                   box-shadow: 0 22px 30px rgba(96,96,96,25%);
                   .in {
                     display: flex;
+                    .sub2_left {
+                      width: 25%;
+                      background: #f2f2f2 url('./assets/img/main/bg_leftdepth_01.png') no-repeat left bottom;
+                      .sub2_title {
+                        display: block;
+                        font-size: 28px;
+                        color: #666;
+                        font-weight: 600;
+                        padding: 40px;
+                        text-align: right;
+                      }
+                    }
+                    .sub2_container {
+                      width: 75%;
+                      margin: 0 auto;
+                      height: 100%;
+                      overflow: hidden;
+                      font-family: "NotoSansKR";
+                      padding-right: calc((100%-1340px)/2);
+                      background: #f2f2f2 url('./assets/img/main/bg_depth.png') no-repeat right bottom;
+                      .depth_list2 {
+                        padding: 40px 0 10px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        .depth2_item {
+                          display: block;
+                          vertical-align: top;
+                          width: 25%;
+                          padding: 0 25px;
+                          margin-bottom: 30px;
+                          .depth2_title {
+                            display: block;
+                            padding: 5px 13px;
+                            background-color: #fff;
+                            border: 1px solid #d2d2d2;
+                            border-radius: 5px;
+                            color: #333;
+                            font-size: 18px;
+                            line-height: 30px;
+                            letter-spacing: -0.025em;
+                            font-weight: 600;
+                            transition: .3s;
+                          }
+                          .depth3 {
+                            display: block;
+                            visibility: visible;
+                            overflow: unset;
+                            .depth_list3 {
+                              padding: 10px;
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 }
               }
