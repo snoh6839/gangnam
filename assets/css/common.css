@@ -180,7 +180,8 @@ legend {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* .container {width:1021px;} */
+
+
 .img-thumbnail {
   padding: 0px !important;
   border: none !important;
@@ -3533,14 +3534,7 @@ table caption {
   color: #fff
 }
 
-.keyword-txt {
-  -webkit-ime-mode: active;
-  -moz-ime-mode: active;
-  -ms-ime-mode: active;
-  ime-mode: active;
-}
 
-/* 2019/4/10 */
 /* modal */
 .gn-modal-header {
   background-color: #1378cb;
@@ -3734,9 +3728,6 @@ body.menu-open .wrap .black-wrap {
   padding: 0;
 }
 
-.mobile-menu .depth1>.panel>.panel-heading.active {}
-
-.mobile-menu .depth1>.panel>.panel-heading.on {}
 
 .mobile-menu .depth1>.panel>.panel-heading.active .panel-title a {
   color: #1378cb;
@@ -3748,7 +3739,6 @@ body.menu-open .wrap .black-wrap {
   font-size: 18px;
 }
 
-.mobile-menu .depth2 {}
 
 .mobile-menu .depth2>.panel {
   margin: 0;
