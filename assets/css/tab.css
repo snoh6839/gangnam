@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+.hd-top-wrap {
+  background: #fff;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.hd-top-wrap>div:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.htl-style {
+  float: left;
+  position: relative;
+  z-index: 100;
+}
+
+.htl-style>ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.htl-style li.tab-dp1 {
+  float: left;
+  position: relative;
+}
+
+.htl-style li.tab-dp1>a {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  line-height: 24px;
+  padding: 8px 15px;
+  text-decoration: none;
+  position: relative;
+}
+
+.htl-style li.tab-dp1:first-child {
+  color: #f60;
+}
+
+.htl-style li.tab-dp1>a>span.caret {
+  display: none;
+}
+
+.htl-style li.tab-dp1.on>a,
+.htl-style li.tab-dp1.active>a {
+  font-weight: 700;
+}
+
+.htl-style li.tab-dp1.on>a:after {
+  display: none;
+}
+
+.htl-style li.bg1.ac>a,
+.htl-style li.bg1.on>a,
+.htl-style li.bg1.active>a {
+  font-weight: bold;
+}
+
+.htl-style li.bg2.ac>a,
+.htl-style li.bg2.on>a,
+.htl-style li.bg2.active>a {
+  font-weight: 500;
+  box-shadow: 0 -3px 0 0 #f6bebe inset;
+}
+
+.htl-style li.bg3.ac>a,
+.htl-style li.bg3.on>a,
+.htl-style li.bg3.active>a {
+  font-weight: 500;
+  box-shadow: 0 -3px 0 0 #f6bebe inset;
+}
+
+.htl-style li.bg4.ac>a,
+.htl-style li.bg4.on>a,
+.htl-style li.bg4.active>a {
+  font-weight: 500;
+  box-shadow: 0 -3px 0 0 #f6bebe inset;
+}
+
+.htl-style li.bg5.ac>a,
+.htl-style li.bg5.on>a,
+.htl-style li.bg5.active>a {
+  font-weight: 500;
+  box-shadow: 0 -3px 0 0 #f6bebe inset;
+}
+
+.htl-style li.bg6.ac>a,
+.htl-style li.bg6.on>a,
+.htl-style li.bg6.active>a {
+  font-weight: 500;
+  box-shadow: 0 -3px 0 0 #f6bebe inset;
+}
+
+
+
+.ht-search {
+  float: right;
+  border-left: 1px solid #dedede;
+}
+
+.ht-search input[type="text"] {
+  border: none;
+  background: none;
+  width: 175px;
+  height: 40px;
+  padding: 5px;
+  line-height: 30px;
+}
+
+.ht-search-bt {
+  margin-left: -5px;
+  vertical-align: top;
+}
+
+.ht-search-bt .fa {
+  display: inline-block;
+  width: 45px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  background-color: #686868;
+  color: #fff;
+}
+
+.ht-search-bt .txt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  color: transparent;
+}
+
+.tpl-mo-swb {
+  display: none;
+}
+
+.tpl-mo-swb>a {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  line-height: 22px;
+  padding: 7px 0;
+  position: relative;
+}
+
+.tpl-mo-swb>a .fa {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 24px;
+  background-color: #686868;
+}
+
+.tpl-mo-swb>a .fa-angle-down {
+  display: block;
+}
+
+.tpl-mo-swb>a .fa-angle-up {
+  display: none;
+}
+
+.tpl-mo-swb.on>a .fa-angle-down {
+  display: none;
+}
+
+.tpl-mo-swb.on>a .fa-angle-up {
+  display: block;
+}
+
+.tpl-mo-swb a.bg1 {
+  background-color: #173f87;
+}
+
+.tpl-mo-swb a.bg2 {
+  background-color: #17878b;
+}
+
+.tpl-mo-swb a.bg3 {
+  background-color: #974297;
+}
+
+.tpl-mo-swb a.bg4 {
+  background-color: #1e95b7;
+}
+
+.tpl-mo-swb a.bg5 {
+  background-color: #ca712b;
+}
+
+.tpl-mo-swb a.bg6 {
+  background-color: #78b016;
+}
+
+.tpl-mo-swb a.bg7 {
+  background-color: #46b873;
+}
+
+@media screen and (max-width: 1024px) {
+  .hd-top-wrap {
+    display: none;
+  }
+
+  .htl-style {
+    float: none;
+  }
+
+  .tpl-mo-swb {
+    display: block;
+  }
+
+  .tpl-mo-swb .tldp2-sw {
+    float: left;
+    width: calc(100% - 30px);
+  }
+
+  .tpl-mo-swb .tldp1-sw {
+    float: left;
+    width: 30px;
+  }
+
+  .ht-search input[type="text"] {
+    box-sizing: border-box;
+    height: 40px;
+    vertical-align: top;
+    border-left: 1px solid #dedede;
+    width: 100%;
+  }
+
+  .ht-search .ht-search-bt {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.cont-wrap {
+  border: 1px solid #BDC3C7;
+  border-radius: 3px;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.cont-wrap>a>img {
+  width: 100% !important;
+}
+
+.mcgs-box .nav-tabs>li {
+  width: 33.3%
+}
+
+.mcgs-box .nav-tabs>li>a {
+  display: block;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: normal
+}

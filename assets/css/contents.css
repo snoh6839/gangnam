@@ -1,0 +1,1554 @@
+@charset "utf-8";
+
+/* 콘텐츠 공통 */
+.contents a>i.fa-external-link {
+  color: #337ab7
+}
+
+.contents a.btn>i.fa-external-link {
+  color: #fff !important
+}
+
+.btn-h4-only {
+  vertical-align: middle !important;
+  margin-bottom: 6px !important
+}
+
+/* h4옆 btn-sm 클래스 쓸때 꼭 써주어야 함 */
+.list-stl-none li {
+  background: none !important
+}
+
+.txt-big {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.dis-b {
+  display: block !important
+}
+
+.dis-inb {
+  display: inline-block !important
+}
+
+.list-inline.list-arrow {
+  padding: 0 !important
+}
+
+.list-inline.list-arrow li {
+  background: none;
+  padding: 0;
+  color: inherit
+}
+
+.list-inline.list-arrow li:after {
+  font-family: "fontAwesome";
+  content: "\f105";
+  padding: 0 5px;
+  color: #9e9e9e
+}
+
+.list-inline.list-arrow li:last-child:after {
+  content: ""
+}
+
+.contents ol {
+  padding-left: 15px !important
+}
+
+.contents ol li {
+  padding: 0 0 3px 0
+}
+
+.contents blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eee
+}
+
+.contents iframe {
+  border: 0
+}
+
+.val-top {
+  vertical-align: top !important
+}
+
+.val-bottom {
+  vertical-align: bottom !important
+}
+
+.table-responsive {
+  padding-top: 1px
+}
+
+.blind {
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0,0,0,0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+}
+
+/* 모바일 테이블 상단 보더 관련 */
+/* 민원실안내 */
+.minwon-map>span {
+  width: 190px;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+/* 개발연한보기 */
+.con011307 .form-timelimit input {
+  padding: 17px;
+}
+
+.con011307 .form-timelimit .form-actions {
+  margin-bottom: 0;
+}
+
+.con011307 .timelimit-msg .timelimit-msg-bg {
+  display: table;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eee;
+  background: url(/assets/images/sub/board/board_empty-list_bg.jpg) center center;
+}
+
+.con011307 .timelimit-msg .center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.con011307 .timelimit-msg .center p {
+  margin-bottom: 0;
+}
+
+.con011307 .timelimit-msg-before {
+  font-size: 16px;
+}
+
+.con011307 .timelimit-msg-after {
+  font-size: 16px;
+}
+
+/* 생활폐기물배출 */
+.waste-standard .sub-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 모달 */
+.waste-table tfoot td {
+  background-color: #f5f5f5
+}
+
+.minus-mt3 {
+  margin-top: -3px !important
+}
+
+/* 선진시민의식정착운동 */
+.con020406 .civic_con_list {
+  height: 77px;
+  padding-bottom: 15px;
+}
+
+.con020406 .civic_con_list>ul>li {
+  float: left;
+  width: 20%;
+  background: none;
+  background-color: #F0F5F6;
+  border: 1px solid #fff;
+  padding: 15px;
+  min-height: 130px
+}
+
+.con020406 .civic_con_list>ul>li strong {
+  font-size: 15px;
+  color: #018ccf
+}
+
+.con020406 .civic_con_list>ul>li>ul>li {
+  background-position: left 5px
+}
+
+.gn-info .tab-content .tab-pane {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* 부서안내 */
+.con040802 .dept-list .dept-box {
+  padding: 15px;
+  display: table;
+  height: 150px;
+}
+
+.con040802 .dept-list .dept-box a {
+  display: table;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.con040802 .dept-list .dept-box a .center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.con040802 .dept-list .dept-box a .center p {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* 각종신고및건의 */
+.report-proposal {
+  margin: 15px 0
+}
+
+.report-proposal>.rp-title {
+  font-family: "Nanum Square";
+  font-size: 30px;
+  text-align: center
+}
+
+.report-proposal>div>div>.rp-list-title {
+  font-size: 16px;
+  font-weight: 600;
+  ;
+  color: #fff;
+  text-align: center;
+  background-color: #009688;
+  padding: 10px 0;
+  border-radius: 15px;
+  position: relative
+}
+
+.report-proposal>div>div>.rp-list-title:after {
+  font-family: "fontAwesome";
+  content: "\f0dd";
+  position: absolute;
+  bottom: -15px;
+  color: #009688;
+  left: 47%;
+  font-size: 26px
+}
+
+.report-proposal>div>div:nth-child(2)>.rp-list-title {
+  background-color: #f36e44
+}
+
+.report-proposal>div>div:nth-child(2)>.rp-list-title:after {
+  color: #f36e44
+}
+
+.report-proposal>div>div>.rp-list-cont {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 15px;
+  min-height: 460px
+}
+
+.report-proposal>div>div>.rp-list-cont>p {
+  margin-bottom: 5px;
+  font-size: 14px
+}
+
+.report-proposal>div>div>.rp-list-cont>p:before {
+  font-family: "fontAwesome";
+  content: "\f192";
+  margin-right: 5px;
+  color: #E91E63
+}
+
+.report-proposal>div>div>.rp-list-cont>ul {
+  padding-left: 15px;
+  font-size: 13px
+}
+
+.report-proposal>.link-area {
+  background-color: #f2f2f2;
+  padding: 15px;
+  margin-top: 20px
+}
+
+.report-proposal>.link-area>p {
+  font-weight: 600;
+  ;
+  font-size: 16px;
+  margin-bottom: 10px
+}
+
+.report-proposal>.link-area>ul {
+  overflow: hidden;
+  padding-left: 0
+}
+
+.report-proposal>.link-area>ul>li {
+  float: left;
+  width: 33.3333%;
+  background: none;
+  padding: 5px 5px
+}
+
+.report-proposal>.link-area>ul>li>a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 5px;
+  color: #555;
+  border: 1px solid #dcdcdc
+}
+
+.report-proposal>.link-area>ul>li>a:hover, .report-proposal>.link-area>ul>li>a:focus {
+  color: #777
+}
+
+/* 지도 간격 */
+.map_box {
+  margin-top: 20px
+}
+
+/* 기념식수 */
+.tree-detail {
+  background-color: #fafafa;
+  border-top: 3px solid #009688;
+  margin-bottom: 20px
+}
+
+.tree-detail ul {
+  line-height: 32px;
+  overflow: hidden;
+  border-right: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  padding: 15px
+}
+
+.tree-detail>ul>li {
+  background: none !important;
+  padding: 0 !important;
+  position: relative;
+  overflow: hidden
+}
+
+.tree-detail>ul>li>div {
+  padding-left: 0;
+  padding-right: 0
+}
+
+.tree-detail>ul>li>.info-title {
+  font-weight: 600;
+}
+
+.tree-detail>ul>li>.info-title:before {
+  font-family: "fontAwesome";
+  content: "\f06c";
+  color: #009688;
+  font-weight: 400;
+  margin-right: 5px
+}
+
+.tree-photo {
+  overflow: hidden
+}
+
+.tree-photo>div {
+  padding-right: 0;
+  padding-left: 0
+}
+
+.tree-photo>h5, .tree-location>h5 {
+  display: block
+}
+
+.tree-photo>div>p, .tree-location>p {
+  padding: 0 15px
+}
+
+/* k-star road */
+.kstarroad-title {
+  font-size: 28px;
+  color: #3db2e9;
+  font-weight: 800;
+  border-top: 3px solid #3db2e9;
+  border-bottom: 3px solid #3db2e9;
+  padding: 10px 0;
+  margin-bottom: 23px;
+}
+
+.kstarroad-col6 {
+  width: 50% !important;
+  padding: 0 15px !important;
+}
+
+.kstarroad-sub-title {
+  font-size: 18px;
+  font-weight: 600;
+  ;
+  color: #3db2e9;
+}
+
+.kstarroad-sub-title>small {
+  font-size: 12px;
+}
+
+.kstarroad-sub-title02 {
+  font-size: 18px;
+  font-weight: 600;
+  ;
+  color: #333;
+}
+
+.kstarroad-store>li {
+  background: none !important;
+  padding: 0 0 15px 0 !important
+}
+
+.kstarroad-store>li>p {
+  font-weight: 600;
+  ;
+  margin-bottom: 0 !important
+}
+
+.kstarroad-store>li>p>span {
+  color: #3db2e9;
+}
+
+.kstarroad-store>li>ul>li {
+  padding-bottom: 5px;
+}
+
+.kstarroad-icon-guide>li {
+  clear: both;
+  background: none !important;
+  padding: 0 0 15px 0 !important;
+  overflow: hidden;
+}
+
+.kstarroad-icon-guide>li>span {
+  display: block;
+  float: left;
+}
+
+.kstarroad-icon-guide>li>span.icon-img {
+  width: 12%;
+  margin-right: 10px;
+}
+
+.kstarroad-icon-guide>li>span.icon-txt {
+  width: 80%;
+  font-weight: 600;
+  ;
+  margin-top: 3px;
+}
+
+.kstarroad-icon-guide>li>span.icon-txt>em {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.guidebook-title {
+  font-size: 20px;
+  color: #3db2e9;
+  font-weight: 800;
+  border-top: 3px solid #3db2e9;
+  border-bottom: 3px solid #3db2e9;
+  padding: 10px 0;
+  margin-bottom: 23px;
+}
+
+.guidebook-title>a {
+  margin-left: 10px;
+  background-color: #3db2e9;
+  color: #fff;
+  padding: 5px 10px;
+  display: inline-block
+}
+
+.guidebook-title>a:hover, .guidebook-title>a:focus {
+  color: #fff;
+}
+
+/* 강남마이스 관광특구 */
+.gn-mice-top>p.mice-title {
+  font-size: 28px;
+  font-weight: 600;
+  ;
+}
+
+.gn-mice-top>span {
+  font-size: 18px;
+}
+
+.gn-mice-cont>.gn-mice-info {
+  border-top: 3px solid #1959BB;
+  /* border-bottom:1px solid #ddd; */
+  margin-top: 20px;
+}
+
+.gn-mice-cont>.gn-mice-info>p.mice-sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+  color: #1959BB;
+}
+
+.gn-mice-cont>.gn-mice-info>p.mice-sub-title>i {
+  margin-right: 8px;
+  margin-left: 5px
+}
+
+.gn-mice-cont>.gn-mice-info>ul>li>span>a {
+  cursor: pointer;
+}
+
+/* 양재천 */
+.yjc-program-list>ul>li {
+  background: none !important;
+  padding: 7px !important
+}
+
+/* 생활지도 */
+.life-map-checklist>li {
+  background: none !important;
+  display: inline-block;
+  padding: 0 10px 0 0px !important
+}
+
+.life-map-checklist>li>div {
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+.life-map-checklist>li>div.clip-check {
+  display: inline-block;
+  margin-left: 6px
+}
+
+.life-map-checklist>li>div.clip-check.check-info input[type="checkbox"]:checked+label:before {
+  border-color: #9E9E9E
+}
+
+.life-map-checklist>li>div.clip-check label:before {
+  top: 0
+}
+
+.tab-area {
+  margin-top: 20px
+}
+
+.gn-cont-tab {
+  border-bottom: 0
+}
+
+.gn-cont-tab>li {
+  width: 25%;
+  background: none !important;
+  padding: 0 !important
+}
+
+.gn-cont-tab>li>a {
+  margin-right: 0;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 0;
+  border: 1px solid #fff;
+  font-weight: 600;
+}
+
+.gn-cont-tab>li.active>a, .gn-cont-tab>li.active>a:focus, .gn-cont-tab>li.active>a:hover {
+  background-color: #607D8B;
+  color: #fff;
+  border: 1px solid #fff
+}
+
+.gn-cont-tab>li>a:hover {
+  background-color: #f5f5f5;
+  color: #000;
+  border: 1px solid #fff
+}
+
+.gn-cont-tab.tabmenu-5>li {
+  width: 20%
+}
+
+.gn-cont-tab.tabmenu-3>li {
+  width: 33.3333%
+}
+
+.document-down-area {
+  margin-top: 30px
+}
+
+.document-down-area ul {
+  overflow: hidden
+}
+
+.document-down-area ul>li {
+  background: none !important;
+  padding: 0 15px !important;
+  text-align: center
+}
+
+.document-down-area ul>li>a {
+  width: 100%;
+  padding: 20px;
+  display: block;
+  background-color: #3F51B5;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.document-down-area ul>li>a>i {
+  font-weight: 400
+}
+
+.document-down-area ul>li:nth-child(1), .document-down-area ul>li:nth-child(2) {
+  margin-bottom: 30px
+}
+
+/* 생활안전지도 */
+.life-safe-list>ul {
+  overflow: hidden
+}
+
+.life-safe-list>ul>li {
+  width: 12.5% !important;
+  background: none !important;
+  padding: 0 0 40px 0 !important
+}
+
+.life-safe-list>ul>li>a {
+  background-image: url('/assets/images/contents/01/011003_bgimg01.png');
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 58px;
+  display: block;
+  margin: auto
+}
+
+.life-safe-list>ul>li>a.safe01 {
+  background-position: 0 0
+}
+
+.life-safe-list>ul>li>a.safe02 {
+  background-position: -65px 0
+}
+
+.life-safe-list>ul>li>a.safe03 {
+  background-position: -130px 0
+}
+
+.life-safe-list>ul>li>a.safe04 {
+  background-position: -195px 0
+}
+
+.life-safe-list>ul>li>a.safe05 {
+  background-position: -260px 0
+}
+
+.life-safe-list>ul>li>a.safe06 {
+  background-position: -325px 0
+}
+
+.life-safe-list>ul>li>a.safe07 {
+  background-position: -390px 0
+}
+
+.life-safe-list>ul>li>a.safe08 {
+  background-position: -455px 0
+}
+
+.life-safe-list>ul>li>a.safe01:hover {
+  background-position: 0 -70px
+}
+
+.life-safe-list>ul>li>a.safe02:hover {
+  background-position: -65px -70px
+}
+
+.life-safe-list>ul>li>a.safe03:hover {
+  background-position: -130px -70px
+}
+
+.life-safe-list>ul>li>a.safe04:hover {
+  background-position: -195px -70px
+}
+
+.life-safe-list>ul>li>a.safe05:hover {
+  background-position: -260px -70px
+}
+
+.life-safe-list>ul>li>a.safe06:hover {
+  background-position: -325px -70px
+}
+
+.life-safe-list>ul>li>a.safe07:hover {
+  background-position: -390px -70px
+}
+
+.life-safe-list>ul>li>a.safe08:hover {
+  background-position: -455px -70px
+}
+
+.life-safe-list>ul>li>a>span {
+  display: block;
+  padding-top: 65px;
+  text-align: center;
+  font-weight: 600;
+  ;
+  color: #818181
+}
+
+.life-safe-wt>ul {
+  overflow: hidden
+}
+
+.life-safe-wt>ul>li>a {
+  display: inline-block
+}
+
+/* 온라인행정심판 */
+.online-simpan ul {
+  overflow: hidden
+}
+
+.online-simpan li {
+  min-height: 430px;
+  padding: 30px 20px !important;
+  background-image: none !important
+}
+
+.online-simpan li.online-01 {
+  background-color: #2672E9;
+  color: #fff
+}
+
+.online-simpan li.online-02 {
+  background-color: #064D8A;
+  color: #fff
+}
+
+.online-simpan li.online-03 {
+  background-color: #767676;
+  color: #fff
+}
+
+.online-simpan li>.big-txt {
+  font-size: 27px;
+  line-height: 30px
+}
+
+.online-simpan li>.bar {
+  background-color: #fff;
+  height: 2px;
+  width: 50px;
+  margin: 18px 0
+}
+
+.online-simpan li>.bg-img {
+  margin: 45px 0
+}
+
+.online-simpan li>.bg-img03 {
+  margin: 54px 0
+}
+
+.online-simpan li.online-01>p>.big-white-border-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 33px;
+  font-size: 17px;
+  width: 100%
+}
+
+.online-simpan li.online-01>p>.big-white-border-btn:hover, .online-simpan li.online-01>p>.big-white-border-btn:focus {
+  color: #5C9CE7;
+  background-color: #fff
+}
+
+.online-simpan li.online-02>p>.big-white-border-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 17px;
+  font-size: 17px;
+  width: 100%
+}
+
+.online-simpan li.online-02>p>.big-white-border-btn:hover, .online-simpan li.online-02>p>.big-white-border-btn:focus {
+  color: #FA6D1B;
+  background-color: #fff
+}
+
+.online-simpan li.online-03>p>.big-white-border-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 20px;
+  font-size: 17px;
+  width: 100%
+}
+
+.online-simpan li.online-03>p>.big-white-border-btn:hover, .online-simpan li.online-03>p>.big-white-border-btn:focus {
+  color: #C1BCBA;
+  background-color: #fff
+}
+
+.online-simpan-link {
+  margin-top: 20px
+}
+
+.online-simpan-link ul {
+  overflow: hidden
+}
+
+.online-simpan-link li {
+  text-align: center;
+  background-image: none !important;
+  padding: 0 15px !important
+}
+
+.online-simpan-link>ul>li>a {
+  display: block;
+  background-color: #f7f7f7;
+  color: #555;
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  padding: 20px 0
+}
+
+.online-simpan-link>ul>li>a.sb-bg {
+  display: block;
+  background-color: #2672E9;
+  color: #fff;
+  width: 100%
+}
+
+.online-simpan-link li span {
+  display: block;
+  margin-top: 5px
+}
+
+/* 조직도 */
+.health-link>a {
+  color: #fff !important
+}
+
+.health-link>a:hover, .health-link>a:focus {
+  color: #fff
+}
+
+.event-170524>.inner>.img {
+  margin-bottom: 0
+}
+
+/* 아동학대예방 */
+.ca-cont {
+  overflow: hidden
+}
+
+.ca-cont>div {
+  padding: 0 0 10px 0 !important
+}
+
+.ca-cont>div>object {
+  min-height: 212px;
+  height: auto
+}
+
+.ca-cont-link>div {
+  margin-left: 15px;
+  margin-right: 0;
+  margin-top: 15px
+}
+
+.ca-cont-link>div>div>a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.ca-cont-link>div>div>a>img {
+  width: 90%;
+  display: block;
+  margin-bottom: 10px
+}
+
+.ca-bar {
+  width: 25px;
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px auto;
+}
+
+/* 강남이갸기 - 청사안내 */
+.floor-map-area {
+  position: relative
+}
+
+.floor-map-area button.btn_close {
+  background: url(/assets/images/contents/04/map_close_btn.gif) left top no-repeat;
+  border: none;
+  cursor: pointer;
+  width: 28px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-indent: -10000px
+}
+
+/* 강남관광정보센터 */
+.gn-tour-map>.inner {
+  text-align: right
+}
+
+.gn-tour-map>.inner>a {
+  vertical-align: top
+}
+
+/* 문화관광해설 */
+.culture-tour-program {
+  margin-top: 20px
+}
+
+.culture-tour-program>.inner-box {
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px
+}
+
+.culture-tour-program>.inner-box:after {
+  display: block;
+  content: "";
+  clear: both
+}
+
+.culture-tour-program>.inner-box>.txt-area>.title {
+  display: inline-block;
+  font-weight: 600;
+  border: 1px solid #3498db;
+  padding: 3px 12px;
+  border-radius: 20px;
+  color: #3498db
+}
+
+/* 선거인명부 */
+.gnVotersList-area {
+  background: #fcfcfc;
+  font-family: "NotoSansKR";
+}
+
+.gnVotersList-area .gnVotersList-inner {
+  width: 1170px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: left;
+}
+
+.gnVotersList-area .gnVotersList-inner .info-txt {
+  padding: 20px 10%;
+  position: relative;
+}
+
+.gnVotersList-area .gnVotersList-inner .info-txt h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 15px 0 0;
+}
+
+.gnVotersList-area .gnVotersList-inner .info-txt h4>span {
+  font-size: 18px;
+  display: block;
+  font-weight: 500;
+}
+
+.gnVotersList-area .gnVotersList-inner .info-txt>ul {
+  margin-top: 10px;
+  line-height: 20px;
+  font-weight: 600
+}
+
+.gnVotersList-area .gnVotersList-inner .info-txt>ul strong {
+  color: #fffbbf
+}
+
+.gnVotersList-area .gnVotersList-inner .info-txt>ul>li {
+  font-size: 15px;
+  color: #536297;
+}
+
+.gnVotersList-area .gnVotersList-inner .info-txt>ul>li>ul {
+  padding-left: 18px
+}
+
+.gnVotersList-area .result-txt {
+  clear: both;
+  background-color: #f5f5f5;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  border-top: 1px solid #eaeaea;
+  padding: 20px 0;
+}
+
+.gnVotersList-area .result-txt p {
+  margin-bottom: 5px !important
+}
+
+.gnVotersList-area .popup_layer_footer {
+  clear: both;
+  color: #444;
+  background: #e0e9eb !important;
+}
+
+.gnVotersList-area .popup_layer_footer .popup_layer_reject input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.gnVotersList-area .popup_layer_footer .popup_layer_reject label {
+  font-weight: 500;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+
+.gnVotersList-area .popup_layer_footer .popup_layer_close {
+  padding: 3px 10px;
+  float: right;
+  background: #636b8e;
+  color: #fff
+}
+
+.gnVotersList-area2 {
+  background: #fcfcfc;
+  font-family: "NotoSansKR";
+}
+
+.gnVotersList-area2 .gnVotersList-inner {
+  width: 1170px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: left;
+}
+
+.gnVotersList-area2 .gnVotersList-inner .info-txt {
+  padding: 10px;
+  position: relative;
+}
+
+.gnVotersList-area2 .gnVotersList-inner .info-txt h4 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 10px 0 0;
+}
+
+.gnVotersList-area2 .gnVotersList-inner .info-txt h4>span {
+  font-size: 18px;
+  display: block;
+  font-weight: 500;
+}
+
+.gnVotersList-area2 .gnVotersList-inner .info-txt>ul {
+  margin-top: 5px;
+  line-height: 20px;
+  font-weight: 600
+}
+
+.gnVotersList-area2 .gnVotersList-inner .info-txt>ul strong {
+  color: #fffbbf
+}
+
+.gnVotersList-area2 .gnVotersList-inner .info-txt>ul>li {
+  font-size: 14px;
+  color: #536297;
+}
+
+.gnVotersList-area2 .gnVotersList-inner .info-txt>ul>li>ul {
+  padding-left: 18px
+}
+
+.gnVotersList-area2 .result-txt {
+  clear: both;
+  background-color: #f5f5f5;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  border-top: 1px solid #eaeaea;
+  padding: 20px 0;
+}
+
+.gnVotersList-area2 .result-txt p {
+  margin-bottom: 5px !important
+}
+
+.gnVotersList-area2 .popup_layer_footer {
+  clear: both;
+  color: #444;
+  background: #e3e7f2 !important;
+}
+
+.gnVotersList-area2 .popup_layer_footer .popup_layer_reject input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.gnVotersList-area2 .popup_layer_footer .popup_layer_reject label {
+  font-weight: 500;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+
+.gnVotersList-area2 .popup_layer_footer .popup_layer_close {
+  padding: 3px 10px;
+  float: right;
+  background: #636b8e;
+  color: #fff
+}
+
+.reference-area {
+  padding: 20px 5%;
+  text-align: left;
+}
+
+.reference-area .inputbox_area {
+  background: #f1f1f1;
+  border-radius: 10px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.reference-area ul {
+  list-style: none;
+  width: 323px;
+  margin: auto;
+  float: left;
+}
+
+.reference-area ul:after {
+  content: '';
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.reference-area ul>li {
+  padding-bottom: 5px;
+}
+
+.reference-area ul>li:last-child {
+  padding-bottom: 0;
+}
+
+.reference-area ul>li>label {
+  display: inline-block;
+  width: 30%;
+  font-size: 15px;
+}
+
+.reference-area ul>li>input {
+  width: 40%;
+  height: 40px;
+  border-radius: 5px !important;
+}
+
+.reference-area .btn-area {
+  text-align: center;
+  width: 85px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.reference-area .btn-area button {
+  width: 100%;
+  height: 85px;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 7px;
+  font-family: "NotoSansKR";
+  background: #536297;
+}
+
+.w17per {
+  width: 17% !important
+}
+
+.w18per {
+  width: 18% !important
+}
+
+/* 복지분야 재정 및 주요사업 */
+.financial-support-list {
+  margin-top: 35px
+}
+
+.financial-support-list>ul>li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background: none !important;
+  margin-bottom: 15px
+}
+
+.financial-support-list>ul>li:before {
+  display: block;
+  background-repeat: no-repeat;
+  content: "";
+  width: 117px;
+  height: 127px;
+  margin: auto
+}
+
+.financial-support-list>ul>li.fs01:before {
+  background-image: url('/assets/images/contents/01/0206-financial-support-img01.jpg');
+}
+
+.financial-support-list>ul>li.fs02:before {
+  background-image: url('/assets/images/contents/01/0206-financial-support-img02.jpg');
+}
+
+.financial-support-list>ul>li.fs03:before {
+  background-image: url('/assets/images/contents/01/0206-financial-support-img03.jpg');
+}
+
+.financial-support-list>ul>li.fs04:before {
+  background-image: url('/assets/images/contents/01/0206-financial-support-img04.jpg');
+}
+
+.financial-support-list>ul>li.fs05:before {
+  background-image: url('/assets/images/contents/01/0206-financial-support-img05.jpg');
+}
+
+.financial-support-list>ul>li.fs06:before {
+  background-image: url('/assets/images/contents/01/0206-financial-support-img06.jpg');
+}
+
+.financial-support-list>ul>li.fs07:before {
+  background-image: url('/assets/images/contents/01/0206-financial-support-img07.jpg');
+}
+
+.financial-support-list>ul>li.fs08:before {
+  background-image: url('/assets/images/contents/01/0206-financial-support-img08.jpg');
+}
+
+.financial-support-list>ul>li>p {
+  margin-top: 5px
+}
+
+.financial-support-list>ul>li>p>strong {
+  color: #37588e
+}
+
+@media screen and (max-width:1199px) {
+  .con020406 .civic_con_list>ul>li {
+    min-height: 168px
+  }
+
+  .report-proposal>div>div>.rp-list-cont {
+    min-height: 580px
+  }
+}
+
+@media screen and (max-width:991px) {
+  .minwon-map>span {
+    width: 160px;
+  }
+
+  /* 선거인명부 */
+  .gnVotersList-area {
+    padding: 0;
+  }
+
+  .gnVotersList-area .gnVotersList-inner {
+    width: 100%;
+  }
+
+  .gnVotersList-area .gnVotersList-inner .info-txt {
+    padding: 20px 15px 0;
+  }
+
+  .gnVotersList-area .gnVotersList-inner .info-txt h4 {
+    padding: 0;
+  }
+
+  .gnVotersList-area2 .gnVotersList-inner {
+    width: 100%;
+  }
+
+  .gnVotersList-area2 .gnVotersList-inner .info-txt {
+    padding: 20px 15px 0;
+  }
+
+  .gnVotersList-area2 .gnVotersList-inner .info-txt h4 {
+    padding: 0;
+  }
+
+  .reference-area {
+    padding: 20px 15px;
+  }
+
+  .reference-area .btn-area {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .reference-area .btn-area button {
+    height: auto;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .con011307 .timelimit-msg {
+    margin-top: 15px;
+  }
+
+  .waste-apply-info .btn-wrap>.row>div {
+    margin-top: 15px;
+  }
+
+  .con020406 .civic_con_list>ul>li {
+    width: 50%;
+    min-height: 110px
+  }
+
+  .report-proposal>div>div>.rp-list-cont {
+    min-height: auto
+  }
+
+  .report-proposal>div>div {
+    margin-bottom: 15px
+  }
+
+  .report-proposal>.link-area>ul>li {
+    width: 50%
+  }
+
+  .gn-cont-tab.tabmenu-5>li {
+    width: 33.3333%
+  }
+
+  .gn-cont-tab.tabmenu-3>li {
+    width: 50%
+  }
+
+  /* 생활지도 */
+  .document-down-area ul>li {
+    margin-bottom: 10px !important
+  }
+
+  /* 강남관광정보센터 */
+  .gn-tour-map {
+    margin-top: 10px
+  }
+
+  .gn-tour-map>.inner>select {
+    width: 80%
+  }
+
+  .gn-tour-map>.inner>a {
+    width: 18%
+  }
+
+  /* 문화관광해설 */
+  .culture-tour-program>.inner-box>.img-area, .culture-tour-program>.inner-box>.txt-area {
+    text-align: center
+  }
+
+  .culture-tour-program>.inner-box>.txt-area {
+    margin-top: 15px
+  }
+}
+
+@media screen and (max-width:767px) {
+  .financial-support-list>ul>li {
+    width: 50%
+  }
+}
+
+@media screen and (max-width:482px) {
+  .con020406 .civic_con_list>ul>li {
+    width: 100%;
+    min-height: auto
+  }
+
+  .report-proposal>.link-area>ul>li {
+    width: 100%
+  }
+
+  .gn-cont-tab.tabmenu-5>li {
+    width: 50%
+  }
+
+  .gn-cont-tab.tabmenu-3>li {
+    width: 100%
+  }
+
+  /* 생활안전지도 */
+  .life-safe-list>ul>li {
+    width: 25% !important
+  }
+
+  /* 강남관광정보센터 */
+  .gn-tour-map>.inner>select {
+    width: 100%
+  }
+
+  .gn-tour-map>.inner>a {
+    width: 30%;
+    margin-top: 5px
+  }
+}
+
+/* 220407 신청 접수 과정 */
+.list-arrow2>li {
+  position: relative
+}
+
+.list-arrow2>li:after {
+  font-family: "fontAwesome";
+  content: "\f061";
+  color: #bbd6e8;
+  position: absolute;
+  top: 42%;
+  right: -5px
+}
+
+.list-arrow2>li:last-child:after {
+  display: none
+}
+
+.list-col-3>li {
+  float: left;
+  width: 33%;
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+.list-col-4>li {
+  float: left;
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+.list-col-5>li {
+  float: left;
+  width: 20%;
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+.business-inner {
+  min-height: 130px;
+  border: 1px solid #bbd6e8;
+  text-align: center
+}
+
+.business-inner>.title {
+  padding: 10px;
+  background-color: #e5f3ff;
+  border-bottom: 1px solid #bbd6e8;
+}
+
+.business-inner.inner02 {
+  min-height: 100px
+}
+
+.business-inner.navy {
+  border: 1px solid #bac0d5;
+}
+
+.business-inner>.title.navy {
+  background-color: #edeff4;
+  border-bottom: 1px solid #bac0d5;
+}
+
+.list-arrow3>li {
+  position: relative
+}
+
+.list-arrow3>li:after {
+  font-family: "xeicon";
+  content: "\e93e";
+  color: #404d78;
+  position: absolute;
+  top: 48px;
+  right: -7px
+}
+
+.list-arrow3>li:last-child:after {
+  display: none
+}
+
+.apply-inner {
+  min-height: 100px;
+  border: 1px solid #a1a9c6;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.apply-inner>.title {
+  padding: 10px;
+  background-color: #edeff4;
+  border-bottom: 1px solid #a1a9c6;
+  color: #404d78;
+}
+
+.jumin-img-list {
+  margin-top: 10px
+}
+
+.jumin-img-list>div {
+  margin-bottom: 30px
+}
+
+@media screen and (max-width:480px) {
+  .list-arrow2>li:after {
+    content: "\f063";
+    left: 50%;
+    bottom: 5px;
+    top: inherit;
+    right: inherit;
+  }
+
+  .list-arrow3>li:after {
+    content: "\e941";
+    left: 50%;
+    bottom: 5px;
+    top: inherit;
+    right: inherit;
+  }
+
+  .list-col-3>li,
+  .list-col-4>li,
+  .list-col-5>li {
+    width: 100%;
+    padding-bottom: 30px
+  }
+
+  .business-inner {
+    min-height: auto
+  }
+
+  .apply-inner {
+    min-height: auto
+  }
+}

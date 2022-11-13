@@ -8,10 +8,6 @@ html, body {
   height: 100%
 }
 
-a, a:hover, a:visited, a:active {
-  outline: 0
-}
-
 ul, ol, li {
   list-style: none
 }
@@ -19,4 +15,20 @@ ul, ol, li {
 a {
   text-decoration: none;
   color: inherit
+}
+
+a, a:hover, a:visited, a:active {
+  outline: 0;
+  text-decoration: none;
+  color: inherit
+}
+
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer
 }

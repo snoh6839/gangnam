@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width height=device-height">
   <title>강남구청</title>
   <link rel="icon" type="image/png" href="https://www.gangnam.go.kr/assets/images/icon/favicon.png?20220829">
+  <link rel="stylesheet" href="./assets/css/initial.css">
   <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/cc043764b2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
@@ -19,6 +20,9 @@
   <script src="./assets/vendor/Counter-Up-master/jquery.counterup.js"></script>
   <script src="./assets/js/main-slider.js"></script>
   <script type="text/javascript" src="./assets/js/common.js"></script>
+  <link rel="stylesheet" href="./assets/css/contents.css">
+  <link rel="stylesheet" href="./assets/css/board.css">
+  <link rel="stylesheet" href="./assets/css/tab.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -82,15 +86,15 @@
 
       <ul class="weather-tic">
         <li class="type1">
-					<span class="icon overcast">흐림</span>
-					<span>15.8℃</span>
-				</li>
-					<li class="type2">미세먼지
-            <span class="green">보통</span>
-          </li>
-					<li class="type3">초미세먼지
-            <span class="green">보통</span>
-          </li>
+          <span class="icon overcast">흐림</span>
+          <span>15.8℃</span>
+        </li>
+        <li class="type2">미세먼지
+          <span class="green">보통</span>
+        </li>
+        <li class="type3">초미세먼지
+          <span class="green">보통</span>
+        </li>
       </ul>
       <div class="login-btn">
         <a href="#" class="btn" title="로그인">로그인</a>
@@ -134,10 +138,10 @@
                             <a class="depth2_title" href="#"> 종합민원안내 </a>
                             <div class="depth3">
                               <ol class="after depth_list3">
-                                <li class="depth3_item"> <a href="/contents/minwon/1/view.do?mid=ID03_010101" target="_self" title="민원실안내 바로가기"> 민원실안내 </a> </li>
-                                <li class="depth3_item"> <a href="/site/ticket/ticketing.do?mid=ID03_01010801" target="_self" title="스마트 번호표 발급(대기현황) 바로가기"> 스마트 번호표 발급(대기현황) </a> </li>
-                                <li class="depth3_item"> <a href="/contents/center_minwon/1/view.do?mid=ID03_030109" target="_self" title="여권민원안내 바로가기"> 여권민원안내 </a> </li>
-                                <li class="depth3_item"> <a href="/contents/issue/1/view.do?mid=ID03_030110" target="_self" title="발급/열람 바로가기"> 발급/열람 </a> </li>
+                                <li class="depth3_item"> <a href="#" title="민원실안내 바로가기"> 민원실안내 </a> </li>
+                                <li class="depth3_item"> <a href="#" title="스마트 번호표 발급(대기현황) 바로가기"> 스마트 번호표 발급(대기현황) </a> </li>
+                                <li class="depth3_item"> <a href="#" title="여권민원안내 바로가기"> 여권민원안내 </a> </li>
+                                <li class="depth3_item"> <a href="#" title="발급/열람 바로가기"> 발급/열람 </a> </li>
                                 <li class="depth3_item"> <a href="http://gangnam.eminwon.seoul.kr/emwp/gov/mogaha/ntis/web/emwp/cmmpotal/action/EmwpMainMgtAction.do" target="_blank" title="새올전자민원창구 바로가기"> 새올전자민원창구<span class="new-window">(새창)</span>
                                   </a> </li>
                                 <li class="depth3_item"> <a href="https://www.gov.kr/portal/main" target="_blank" title="민원24 바로가기"> 민원24<span class="new-window">(새창)</span> </a> </li>
@@ -764,7 +768,7 @@
           <form method="get" id="serchForm" action="https://search.gangnam.go.kr/search.jsp" target="_blank" autocomplete="off"> <input type="text" autocomplete="off" id="topKwd" class="keyword-txt konan-autocomplete-input" name="kwd" title="검색어 입력"
               placeholder="">
             <span class="ui-icon ui-icon-triangle-1-s" style="position: relative; top: 0.5px; left: -10.1875px;"></span><span class="ui-icon ui-icon-triangle-1-s" style="position: relative; top: 0px; left: -10px;"></span>
-            <div class="search-btn"> <button type="submit" title="검색결과 새창열기"><span class="blind">검색</span></button> </div>
+            <div class="search-btn"> <button type="submit" title="검색결과 새창열기"><span class="blind"></span></button> </div>
           </form>
         </div>
       </div>
@@ -1286,20 +1290,26 @@
             <div class="main_top-left">
               <div class="leader_8th_vision">
                 <ul class="list">
-                  <li class="first"><a href="/leader/contents/leader_8th_vision/1/view.do?mid=ML0503" target="_blank" title="새창열림">민선 8기 비전</a></li>
-                  <li><a href="/leader/contents/leader_8th_vision/1/view.do?n=1" target="_blank" title="새창열림">혁신성장</a></li>
-                  <li><a href="/leader/contents/leader_8th_vision/1/view.do?n=2" target="_blank" title="새창열림">문화생태</a></li>
-                  <li><a href="/leader/contents/leader_8th_vision/1/view.do?n=3" target="_blank" title="새창열림">안심행복</a></li>
-                  <li><a href="/leader/contents/leader_8th_vision/1/view.do?n=4" target="_blank" title="새창열림">공감동행</a></li>
-                  <li><a href="/leader/contents/leader_8th_vision/1/view.do?n=5" target="_blank" title="새창열림">초(超)밀착</a></li>
+                  <li class="first"><a href="#" title="새창열림">민선 8기 비전</a></li>
+                  <li class="first"><a href="#" title="새창열림">혁신성장</a></li>
+                  <li class="first"><a href="#" title="새창열림">문화생태</a></li>
+                  <li class="first"><a href="#" title="새창열림">안심행복</a></li>
+                  <li class="first"><a href="#" title="새창열림">공감동행</a></li>
+                  <li class="first"><a href="#" title="새창열림">초(超)밀착</a></li>
                 </ul>
               </div>
             </div>
             <div class="main_top-right">
               <div class="leader_area">
-                <h3><span>구</span><span>민</span>과 함께하는 <br>강남구청장<br><strong>조성명</strong>입니다</h3>
-                <div class="leader_link"> <a href="/leader/main.do" target="_blank" title="새창열림">인사말</a> <a href="/contents/chairman001/1/view.do" target="_self">구청장에게바란다</a> <a href="/leader/board/leader_8th_press/list.do" target="_blank"
-                    title="새창열림">언론인터뷰</a> </div><img src="/assets/images/main202208/img_leader3.png" alt="강남구청장 조성명">
+                <h3>
+                  <span>구</span><span>민</span>과 함께하는 <br>강남구청장<br><strong>조성명</strong>입니다
+                </h3>
+                <div class="leader_link">
+                  <a href="#" title="새창열림">인사말</a>
+                  <a href="#">구청장에게바란다</a>
+                  <a href="#" title="새창열림">언론인터뷰</a>
+                </div>
+                <img src="./assets/img/main/img_leader3.png" alt="강남구청장 조성명">
               </div>
             </div>
           </div>
@@ -1307,29 +1317,29 @@
       </section>
       <section class="main_row bg_gray2">
         <div class="main_service_area inner">
-          <div class="service_btns"> <button type="button" title="이전 슬라이드" class="prev"><span class="blind">이전 슬라이드</span></button> <button type="button" title="다음 슬라이드" class="next"><span class="blind">다음 슬라이드</span></button> </div>
+          <div class="service_btns"> <button type="button" title="이전 슬라이드" class="prev"><span class="blind"></span></button> <button type="button" title="다음 슬라이드" class="next"><span class="blind"></span></button> </div>
           <ul class="service_slider">
-            <li> <a target="_self" href="/dept/user/find.do" class="item"> <img src="/assets/images/main202208/service_ico01.png" alt=""> <span>조직도</span> </a> </li>
-            <li> <a target="_self" href="/contents/guoffice/1/view.do" class="item"> <img src="/assets/images/main202208/service_ico02.png" alt=""> <span>청사안내</span> </a> </li>
-            <li> <a target="_self" href="/waste/apply/info.do" class="item"> <img src="/assets/images/main202208/service_ico03.png" alt=""> <span>생활 폐기물</span> </a> </li>
-            <li> <a target="_self" href="/contents/it_edu/2/view.do" class="item"> <img src="/assets/images/main202208/service_ico04.png" alt=""> <span>정보화 교육</span> </a> </li>
-            <li> <a target="_self" href="/site/ticket/ticketing.do" class="item"> <img src="/assets/images/main202208/service_ico05.png" alt=""> <span>스마트 번호표</span> </a> </li>
-            <li> <a target="_self" href="/contents/center_minwon/1/view.do" class="item"> <img src="/assets/images/main202208/service_ico06.png" alt=""> <span>여권민원</span> </a> </li>
-            <li> <a target="_self" href="/board/B_000060/list.do" class="item"> <img src="/assets/images/main202208/service_ico07.png" alt=""> <span>민원서식</span> </a> </li>
-            <li> <a target="_blank" title="새창열림" href="https://gangnam.eminwon.seoul.kr/emwp/gov/mogaha/ntis/web/emwp/cmmpotal/action/EmwpMainMgtAction.do" class="item"> <img src="/assets/images/main202208/service_ico08.png" alt="">
+            <li> <a href="#" class="item"> <img src="./assets/img/main/service_ico01.png" alt=""> <span>조직도</span> </a> </li>
+            <li> <a href="#" class="item"> <img src="./assets/img/main/service_ico02.png" alt=""> <span>청사안내</span> </a> </li>
+            <li> <a href="#" class="item"> <img src="./assets/img/main/service_ico03.png" alt=""> <span>생활 폐기물</span> </a> </li>
+            <li> <a href="#" class="item"> <img src="./assets/img/main/service_ico04.png" alt=""> <span>정보화 교육</span> </a> </li>
+            <li> <a href="#" class="item"> <img src="./assets/img/main/service_ico05.png" alt=""> <span>스마트 번호표</span> </a> </li>
+            <li> <a href="#" class="item"> <img src="./assets/img/main/service_ico06.png" alt=""> <span>여권민원</span> </a> </li>
+            <li> <a href="#" class="item"> <img src="./assets/img/main/service_ico07.png" alt=""> <span>민원서식</span> </a> </li>
+            <li> <a title="새창열림" href="#" class="item"> <img src="./assets/img/main/service_ico08.png" alt="">
                 <span>전자민원창구</span> </a> </li>
-            <li> <a target="_self" href="/apply/sms_notice_service/newest/view.do" class="item"> <img src="/assets/images/main202208/service_ico09.png" alt=""> <span>문자알림서비스</span> </a> </li>
-            <li> <a target="_blank" title="새창열림" href="https://road.gangnam.go.kr/" class="item"> <img src="/assets/images/main202208/service_ico10.png" alt=""> <span>도로점용허가</span> </a> </li>
-            <li> <a target="_blank" title="새창열림" href="https://www.gangnam.go.kr/parkingsms/re_new/" class="item"> <img src="/assets/images/main202208/service_ico11.png" alt=""> <span>주정차 단속 알림</span> </a> </li>
-            <li> <a target="_blank" title="새창열림" href="https://job.seoul.go.kr/gangnam/Main.do?method=getMain" class="item"> <img src="/assets/images/main202208/service_ico12.png" alt=""> <span>금주의 일자리</span> </a> </li>
-            <li> <a target="_self" href="/survey/onlineReqList.do" class="item"> <img src="/assets/images/main202208/service_ico13.png" alt=""> <span>온라인 신청</span> </a> </li>
-            <li> <a target="_blank" title="새창열림" href="https://cloud.eais.go.kr/" class="item"> <img src="/assets/images/main202208/service_ico14.png" alt=""> <span>세움터</span> </a> </li>
-            <li> <a target="_blank" title="새창열림" href="http://land.gangnam.go.kr/land/" class="item"> <img src="/assets/images/main202208/service_ico15.png" alt=""> <span>부동산 정보시스템</span> </a> </li>
-            <li> <a target="_blank" title="새창열림" href="https://www.gangnam.go.kr/etc/information/women_safety_policy/index.html" class="item"> <img src="/assets/images/main202208/service_ico21.png" alt=""> <span>여성안전 정책</span> </a> </li>
-            <li> <a target="_self" href="/contents/chfr_city_info/1/view.do" class="item"> <img src="/assets/images/main202208/service_ico17.png" alt=""> <span>아동친화도시</span> </a> </li>
-            <li> <a target="_blank" title="새창열림" href="https://etax.seoul.go.kr/index.html" class="item"> <img src="/assets/images/main202208/service_ico18.png" alt=""> <span>이택스</span> </a> </li>
-            <li> <a target="_blank" title="새창열림" href="https://www.gov.kr/portal/main" class="item"> <img src="/assets/images/main202208/service_ico19.png" alt=""> <span>정부24</span> </a> </li>
-            <li> <a target="_blank" title="새창열림" href="https://www.bokjiro.go.kr" class="item"> <img src="/assets/images/main202208/service_ico20.png" alt=""> <span>복지로</span> </a> </li>
+            <li> <a href="#" class="item"> <img src="./assets/img/main/service_ico09.png" alt=""> <span>문자알림서비스</span> </a> </li>
+            <li> <a title="새창열림" href="#" class="item"> <img src="./assets/img/main/service_ico10.png" alt=""> <span>도로점용허가</span> </a> </li>
+            <li> <a title="새창열림" href="#" class="item"> <img src="./assets/img/main/service_ico11.png" alt=""> <span>주정차 단속 알림</span> </a> </li>
+            <li> <a title="새창열림" href="#" class="item"> <img src="./assets/img/main/service_ico12.png" alt=""> <span>금주의 일자리</span> </a> </li>
+            <li> <a href="#" class="item"> <img src="./assets/img/main/service_ico13.png" alt=""> <span>온라인 신청</span> </a> </li>
+            <li> <a title="새창열림" href="#" class="item"> <img src="./assets/img/main/service_ico14.png" alt=""> <span>세움터</span> </a> </li>
+            <li> <a title="새창열림" href="#" class="item"> <img src="./assets/img/main/service_ico15.png" alt=""> <span>부동산 정보시스템</span> </a> </li>
+            <li> <a title="새창열림" href="#" class="item"> <img src="./assets/img/main/service_ico21.png" alt=""> <span>여성안전 정책</span> </a> </li>
+            <li> <a href="#" class="item"> <img src="./assets/img/main/service_ico17.png" alt=""> <span>아동친화도시</span> </a> </li>
+            <li> <a title="새창열림" href="#" class="item"> <img src="./assets/img/main/service_ico18.png" alt=""> <span>이택스</span> </a> </li>
+            <li> <a title="새창열림" href="#" class="item"> <img src="./assets/img/main/service_ico19.png" alt=""> <span>정부24</span> </a> </li>
+            <li> <a title="새창열림" href="#" class="item"> <img src="./assets/img/main/service_ico20.png" alt=""> <span>복지로</span> </a> </li>
           </ul>
         </div>
       </section>
@@ -1348,28 +1358,28 @@
                 <h4 class="blind">공지사항</h4> <button type="button" class="prev">이전보기</button>
                 <ul class="notice-slider">
                   <li class="item">
-                    <p class="team"><span>교육지원과</span></p><a href="/board/B_000001/1074250/view.do" target="_self" class="text">강남미래인재교육원 일반인 대상 특강 안내(11.12.토)</a> <span class="date">2022-11-10</span>
+                    <p class="team"><span>교육지원과</span></p><a href="#" class="text">강남미래인재교육원 일반인 대상 특강 안내(11.12.토)</a> <span class="date">2022-11-10</span>
                   </li>
                   <li class="item">
-                    <p class="team"><span>일자리정책과</span></p><a href="/board/B_000001/1074249/view.do" target="_self" class="text">강남구 청년 네트워크 「청년 취업 포럼」에 초대합니다!</a> <span class="date">2022-11-10</span>
+                    <p class="team"><span>일자리정책과</span></p><a href="#" class="text">강남구 청년 네트워크 「청년 취업 포럼」에 초대합니다!</a> <span class="date">2022-11-10</span>
                   </li>
                   <li class="item">
-                    <p class="team"><span>교통행정과</span></p><a href="/board/B_000001/1074247/view.do" target="_self" class="text">2023학년도 수능시험 학부모의 마음으로!</a> <span class="date">2022-11-09</span>
+                    <p class="team"><span>교통행정과</span></p><a href="#" class="text">2023학년도 수능시험 학부모의 마음으로!</a> <span class="date">2022-11-09</span>
                   </li>
                   <li class="item">
-                    <p class="team"><span>재난안전과</span></p><a href="/board/B_000001/1074246/view.do" target="_self" class="text">이태원 사고 부상자 등 피해신고 접수 안내 </a> <span class="date">2022-11-09</span>
+                    <p class="team"><span>재난안전과</span></p><a href="#" class="text">이태원 사고 부상자 등 피해신고 접수 안내 </a> <span class="date">2022-11-09</span>
                   </li>
                   <li class="item">
-                    <p class="team"><span>세곡보건지소</span></p><a href="/board/B_000001/1074245/view.do" target="_self" class="text">강남구 일반임기제공무원(9급,물리치료사) 채용공고</a> <span class="date">2022-11-07</span>
+                    <p class="team"><span>세곡보건지소</span></p><a href="#" class="text">강남구 일반임기제공무원(9급,물리치료사) 채용공고</a> <span class="date">2022-11-07</span>
                   </li>
                   <li class="item">
-                    <p class="team"><span>세곡보건지소</span></p><a href="/board/B_000001/1074244/view.do" target="_self" class="text">건강한 갱년기 맞이하기! 세곡보건지소 건강교실 특강</a> <span class="date">2022-11-07</span>
+                    <p class="team"><span>세곡보건지소</span></p><a href="#" class="text">건강한 갱년기 맞이하기! 세곡보건지소 건강교실 특강</a> <span class="date">2022-11-07</span>
                   </li>
                   <li class="item">
-                    <p class="team"><span>보건행정과</span></p><a href="/board/B_000001/1074240/view.do" target="_self" class="text">강남구 마음건강검진 및 「검진, 상담, 비용」 상담지원사업 안내(서울시민)</a> <span class="date">2022-11-06</span>
+                    <p class="team"><span>보건행정과</span></p><a href="#" class="text">강남구 마음건강검진 및 「검진, 상담, 비용」 상담지원사업 안내(서울시민)</a> <span class="date">2022-11-06</span>
                   </li>
                   <li class="item">
-                    <p class="team"><span>보건행정과</span></p><a href="/board/B_000001/1074175/view.do" target="_self" class="text">2022~23˝절기 인플루엔자(어르신,어린이, 임신부,의료취약층)국가예방접종 실시 안내(11.01.기준)</a> <span class="date">2022-11-06</span>
+                    <p class="team"><span>보건행정과</span></p><a href="#" class="text">2022~23˝절기 인플루엔자(어르신,어린이, 임신부,의료취약층)국가예방접종 실시 안내(11.01.기준)</a> <span class="date">2022-11-06</span>
                   </li>
                 </ul> <button type="button" class="next">다음보기</button>
                 <div class="slider-control notice-control">
@@ -1512,9 +1522,6 @@
                     <p class="team"><span>KBS</span></p><a href="https://news.kbs.co.kr/news/view.do?ncd=5595890&ref=A" target="_blank" class="text">강남 침수·태풍에도 손보업계 ‘호실적’…자동차 보험료 내린다</a> <span class="date">2022-11-09</span>
                   </li>
                 </ul> <button type="button" class="next">다음보기</button>
-                <div class="slider-control notice-control">
-                  <div class="slider-count"> <span class="slider-current">1</span> <span class="progress_bar"> <strong class="bar"></strong> <span class="skip">비주얼 프로그레스바</span> </span> <span class="slider-total"></span> </div>
-                </div>
               </div>
             </div>
           </div>
@@ -1660,96 +1667,96 @@
                   <div class="item info_box">
                     <p class="title">민원실 이용 안내</p><span class="subtitle">평일 오전9시 ~ 오후6시<br>(토·일·공휴일 휴무)</span>
                   </div><a href="/contents/minwonissue/1/view.do" class="item">
-                    <p class="title">무인민원발급기</p><span class="subtitle">위치정보</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_1.png" alt=""></span>
+                    <p class="title">무인민원발급기</p><span class="subtitle">위치정보</span> <span class="icon"><img src="./assets/img/main/complaints_icon_1.png" alt=""></span>
                   </a> <a href="/contents/issue/1/view.do" class="item">
-                    <p class="title">발급 종류·수수료</p><span class="subtitle">발급</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_1.png" alt=""></span>
+                    <p class="title">발급 종류·수수료</p><span class="subtitle">발급</span> <span class="icon"><img src="./assets/img/main/complaints_icon_1.png" alt=""></span>
                   </a> <a href="https://efamily.scourt.go.kr/index.jsp" class="item newwin">
-                    <p class="title">가족관계등록시스템</p><span class="subtitle">발급</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_1.png" alt=""></span>
+                    <p class="title">가족관계등록시스템</p><span class="subtitle">발급</span> <span class="icon"><img src="./assets/img/main/complaints_icon_1.png" alt=""></span>
                   </a> <a href="https://www.passport.go.kr/new/issue/reissueOnline_info.php" class="item newwin">
-                    <p class="title">온라인여권재발급</p><span class="subtitle">신청</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_1.png" alt=""></span>
+                    <p class="title">온라인여권재발급</p><span class="subtitle">신청</span> <span class="icon"><img src="./assets/img/main/complaints_icon_1.png" alt=""></span>
                   </a> <a href="https://www.g-health.kr/pagefolws/certi/CertiInfNew2.do?cNo=200435&pGubun=Y&menuNo=200435" class="item">
-                    <p class="title">건강진단결과서(보건증)</p><span class="subtitle">신청</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_1.png" alt=""></span>
+                    <p class="title">건강진단결과서(보건증)</p><span class="subtitle">신청</span> <span class="icon"><img src="./assets/img/main/complaints_icon_1.png" alt=""></span>
                   </a> <a href="/board/B_000972/list.do" class="item">
-                    <p class="title">건축심의</p><span class="subtitle">정보</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_1.png" alt=""></span>
+                    <p class="title">건축심의</p><span class="subtitle">정보</span> <span class="icon"><img src="./assets/img/main/complaints_icon_1.png" alt=""></span>
                   </a> <a href="https://gn.gncity.or.kr/" class="item newwin">
-                    <p class="title">거주자우선주차</p><span class="subtitle">신청</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_1.png" alt=""></span>
+                    <p class="title">거주자우선주차</p><span class="subtitle">신청</span> <span class="icon"><img src="./assets/img/main/complaints_icon_1.png" alt=""></span>
                   </a>
                 </div>
               </div>
               <div id="comp-2" class="comp-cont bg_gray2">
                 <div class="comp-list"> <a href="/contents/memewe_clean_intro/1/view.do" class="item">
-                    <p class="title">미미위클린놀이터</p><span class="subtitle">보육</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_2.png" alt=""></span>
+                    <p class="title">미미위클린놀이터</p><span class="subtitle">보육</span> <span class="icon"><img src="./assets/img/main/complaints_icon_2.png" alt=""></span>
                   </a> <a href="/contents/segok_indoor_playground_intro/1/view.do" class="item">
-                    <p class="title">세곡어린이놀이터</p><span class="subtitle">보육</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_2.png" alt=""></span>
+                    <p class="title">세곡어린이놀이터</p><span class="subtitle">보육</span> <span class="icon"><img src="./assets/img/main/complaints_icon_2.png" alt=""></span>
                   </a> <a href="/contents/irwon_indoor_playground_intro/1/view.do" class="item">
-                    <p class="title">일원어린이놀이터</p><span class="subtitle">보육</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_2.png" alt=""></span>
+                    <p class="title">일원어린이놀이터</p><span class="subtitle">보육</span> <span class="icon"><img src="./assets/img/main/complaints_icon_2.png" alt=""></span>
                   </a> <a href="https://covid19m.kdca.go.kr/KP/11700190A" class="item newwin">
-                    <p class="title">코로나19 PCR 검사</p><span class="subtitle">보건</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_2.png" alt=""></span>
+                    <p class="title">코로나19 PCR 검사</p><span class="subtitle">보건</span> <span class="icon"><img src="./assets/img/main/complaints_icon_2.png" alt=""></span>
                   </a> <a href="/apply/bicycle_edu/list.do" class="item">
-                    <p class="title">자전거교실</p><span class="subtitle">교육</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_2.png" alt=""></span>
+                    <p class="title">자전거교실</p><span class="subtitle">교육</span> <span class="icon"><img src="./assets/img/main/complaints_icon_2.png" alt=""></span>
                   </a> <a href="/contents/gangnam_art_walking/1/view.do" class="item">
-                    <p class="title">강남아트</p><span class="subtitle">문화·관광</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_2.png" alt=""></span>
+                    <p class="title">강남아트</p><span class="subtitle">문화·관광</span> <span class="icon"><img src="./assets/img/main/complaints_icon_2.png" alt=""></span>
                   </a> <a href="/contents/gangnam_uneeg_tour/1/view.do" class="item">
-                    <p class="title">강남유닉투어</p><span class="subtitle">문화·관광</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_2.png" alt=""></span>
+                    <p class="title">강남유닉투어</p><span class="subtitle">문화·관광</span> <span class="icon"><img src="./assets/img/main/complaints_icon_2.png" alt=""></span>
                   </a> <a href="/ecs/resv/list.do" class="item">
-                    <p class="title">전문가 방문상담</p><span class="subtitle">서비스</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_2.png" alt=""></span>
+                    <p class="title">전문가 방문상담</p><span class="subtitle">서비스</span> <span class="icon"><img src="./assets/img/main/complaints_icon_2.png" alt=""></span>
                   </a> </div>
               </div>
               <div id="comp-3" class="comp-cont bg_gray2">
                 <div class="comp-list"> <a href="/contents/livelihood_basic/1/view.do" class="item">
-                    <p class="title">복지급여</p><span class="subtitle">안내</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_3.png" alt=""></span>
+                    <p class="title">복지급여</p><span class="subtitle">안내</span> <span class="icon"><img src="./assets/img/main/complaints_icon_3.png" alt=""></span>
                   </a> <a href="https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001164" class="item newwin">
-                    <p class="title">기초연금</p><span class="subtitle">어르신</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_3.png" alt=""></span>
+                    <p class="title">기초연금</p><span class="subtitle">어르신</span> <span class="icon"><img src="./assets/img/main/complaints_icon_3.png" alt=""></span>
                   </a> <a href="/board/livelihood_support/list.do" class="item">
-                    <p class="title">의료비지원</p><span class="subtitle">저소득</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_3.png" alt=""></span>
+                    <p class="title">의료비지원</p><span class="subtitle">저소득</span> <span class="icon"><img src="./assets/img/main/complaints_icon_3.png" alt=""></span>
                   </a> <a href="/board/livelihood_support/list.do?#collapse4" class="item">
-                    <p class="title">긴급복지 지원</p><span class="subtitle">저소득</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_3.png" alt=""></span>
+                    <p class="title">긴급복지 지원</p><span class="subtitle">저소득</span> <span class="icon"><img src="./assets/img/main/complaints_icon_3.png" alt=""></span>
                   </a> <a href="/board/nursing/list.do?#collapse4" class="item">
-                    <p class="title">아이돌봄지원</p><span class="subtitle">보육</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_3.png" alt=""></span>
+                    <p class="title">아이돌봄지원</p><span class="subtitle">보육</span> <span class="icon"><img src="./assets/img/main/complaints_icon_3.png" alt=""></span>
                   </a> <a href="https://www.gncare.go.kr/gnccic_child/index.php" class="item newwin">
-                    <p class="title">육아종합지원센터</p><span class="subtitle">보육</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_3.png" alt=""></span>
+                    <p class="title">육아종합지원센터</p><span class="subtitle">보육</span> <span class="icon"><img src="./assets/img/main/complaints_icon_3.png" alt=""></span>
                   </a> <a href="/board/handicap_support/list.do?#collapse15" class="item">
-                    <p class="title">장애인 복지카드</p><span class="subtitle">장애인</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_3.png" alt=""></span>
+                    <p class="title">장애인 복지카드</p><span class="subtitle">장애인</span> <span class="icon"><img src="./assets/img/main/complaints_icon_3.png" alt=""></span>
                   </a> <a href="http://www.liveinkorea.kr/center/main/main.do?centerId=gangnamgu" class="item newwin">
-                    <p class="title">강남구다문화가족지원센터</p><span class="subtitle">다문화</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_3.png" alt=""></span>
+                    <p class="title">강남구다문화가족지원센터</p><span class="subtitle">다문화</span> <span class="icon"><img src="./assets/img/main/complaints_icon_3.png" alt=""></span>
                   </a> </div>
               </div>
               <div id="comp-4" class="comp-cont bg_gray2">
                 <div class="comp-list"> <a href="/board/B_000059/list.do" class="item">
-                    <p class="title">전문가 온라인상담</p><span class="subtitle">무료 상담</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_4.png" alt=""></span>
+                    <p class="title">전문가 온라인상담</p><span class="subtitle">무료 상담</span> <span class="icon"><img src="./assets/img/main/complaints_icon_4.png" alt=""></span>
                   </a> <a href="/board/consult/list.do" class="item">
-                    <p class="title">계약원가자문</p><span class="subtitle">무료 상담</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_4.png" alt=""></span>
+                    <p class="title">계약원가자문</p><span class="subtitle">무료 상담</span> <span class="icon"><img src="./assets/img/main/complaints_icon_4.png" alt=""></span>
                   </a> <a href="/board/B_000001/1072202/view.do" class="item">
-                    <p class="title">무료법률상담</p><span class="subtitle">무료 상담</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_4.png" alt=""></span>
+                    <p class="title">무료법률상담</p><span class="subtitle">무료 상담</span> <span class="icon"><img src="./assets/img/main/complaints_icon_4.png" alt=""></span>
                   </a> <a href="https://mind.gangnam.go.kr" class="item newwin">
-                    <p class="title">마음건강상담 '위안'</p><span class="subtitle">심리 상담</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_4.png" alt=""></span>
+                    <p class="title">마음건강상담 '위안'</p><span class="subtitle">심리 상담</span> <span class="icon"><img src="./assets/img/main/complaints_icon_4.png" alt=""></span>
                   </a> <a href="/board/parking/list.do?#collapse11" class="item">
-                    <p class="title">스마트공유주차</p><span class="subtitle">주차</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_4.png" alt=""></span>
+                    <p class="title">스마트공유주차</p><span class="subtitle">주차</span> <span class="icon"><img src="./assets/img/main/complaints_icon_4.png" alt=""></span>
                   </a> <a href="/mypage/keyword/info.do" class="item">
-                    <p class="title">키워드 알림</p><span class="subtitle">알림</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_4.png" alt=""></span>
+                    <p class="title">키워드 알림</p><span class="subtitle">알림</span> <span class="icon"><img src="./assets/img/main/complaints_icon_4.png" alt=""></span>
                   </a> <a href="https://etax.seoul.go.kr/jsp/PrptyCalcAction.view?gnb_id=0610&lnb_id=0610&gl_gubun=l" class="item newwin">
-                    <p class="title">지방세 계산</p><span class="subtitle">세금</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_4.png" alt=""></span>
+                    <p class="title">지방세 계산</p><span class="subtitle">세금</span> <span class="icon"><img src="./assets/img/main/complaints_icon_4.png" alt=""></span>
                   </a> <a href="/supt/infctn/info.do?mid=ID04_040745" class="item newwin">
-                    <p class="title">신속역학조사</p><span class="subtitle">코로나19</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_4.png" alt=""></span>
+                    <p class="title">신속역학조사</p><span class="subtitle">코로나19</span> <span class="icon"><img src="./assets/img/main/complaints_icon_4.png" alt=""></span>
                   </a> </div>
               </div>
               <div id="comp-5" class="comp-cont bg_gray2">
                 <div class="comp-list"> <a href="https://traffic.gangnam.go.kr/" class="item newwin">
-                    <p class="title">불법주정차</p><span class="subtitle">주차</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_5.png" alt=""></span>
+                    <p class="title">불법주정차</p><span class="subtitle">주차</span> <span class="icon"><img src="./assets/img/main/complaints_icon_5.png" alt=""></span>
                   </a> <a href="/contents/out_ad/1/view.do" class="item">
-                    <p class="title">옥외광고물</p><span class="subtitle">간판</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_5.png" alt=""></span>
+                    <p class="title">옥외광고물</p><span class="subtitle">간판</span> <span class="icon"><img src="./assets/img/main/complaints_icon_5.png" alt=""></span>
                   </a> <a href="/board/idea_contest/list.do" class="item">
-                    <p class="title">구민아이디어</p><span class="subtitle">제안</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_5.png" alt=""></span>
+                    <p class="title">구민아이디어</p><span class="subtitle">제안</span> <span class="icon"><img src="./assets/img/main/complaints_icon_5.png" alt=""></span>
                   </a> <a href="/apply/sewage/newest/view.do" class="item">
-                    <p class="title">공공 하수 악취</p><span class="subtitle">생활</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_5.png" alt=""></span>
+                    <p class="title">공공 하수 악취</p><span class="subtitle">생활</span> <span class="icon"><img src="./assets/img/main/complaints_icon_5.png" alt=""></span>
                   </a> <a href="https://www.safetyreport.go.kr" class="item newwin">
-                    <p class="title">안전신문고</p><span class="subtitle">생활</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_5.png" alt=""></span>
+                    <p class="title">안전신문고</p><span class="subtitle">생활</span> <span class="icon"><img src="./assets/img/main/complaints_icon_5.png" alt=""></span>
                   </a> <a href="https://www.clean.go.kr/" class="item newwin">
-                    <p class="title">청렴신문고</p><span class="subtitle">공익</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_5.png" alt=""></span>
+                    <p class="title">청렴신문고</p><span class="subtitle">공익</span> <span class="icon"><img src="./assets/img/main/complaints_icon_5.png" alt=""></span>
                   </a> <a href="https://www.sinmungo.go.kr/sz2/ntc/procsDsGuid.jsp" class="item newwin">
-                    <p class="title">규제개혁신문고</p><span class="subtitle">규제</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_5.png" alt=""></span>
+                    <p class="title">규제개혁신문고</p><span class="subtitle">규제</span> <span class="icon"><img src="./assets/img/main/complaints_icon_5.png" alt=""></span>
                   </a> <a href="http://gangnam.rtms.seoul.go.kr/rtmsweb/home.do" class="item newwin">
-                    <p class="title">부동산거래관리시스템</p><span class="subtitle">부동산</span> <span class="icon"><img src="/assets/images/main202208/complaints_icon_5.png" alt=""></span>
+                    <p class="title">부동산거래관리시스템</p><span class="subtitle">부동산</span> <span class="icon"><img src="./assets/img/main/complaints_icon_5.png" alt=""></span>
                   </a> </div>
               </div>
             </div>
@@ -1881,8 +1888,8 @@
               <a href="https://www.tiktok.com/@gangnam_official" target="_blank" title="새창열림" class="sns06"><span class="hideHidden">틱톡</span></a>
             </div>
             <div class="main_sns_area">
-              <div class="kakaochanel"> <a href="http://pf.kakao.com/_xmYAxbd" target="_blank" title="카카오톡 채널 새창 열림"> <img src="/assets/images/main202208/banner_kakao_pc.png" alt="" class="_pc"> <img
-                    src="/assets/images/main202208/banner_kakao_mo.png" alt="" class="_mo"> </a> </div>
+              <div class="kakaochanel"> <a href="http://pf.kakao.com/_xmYAxbd" target="_blank" title="카카오톡 채널 새창 열림"> <img src="./assets/img/main/banner_kakao_pc.png" alt="" class="_pc"> <img src="./assets/img/main/banner_kakao_mo.png" alt=""
+                    class="_mo"> </a> </div>
               <ul class="sns_list">
                 <li class="left"> <a href="https://www.tiktok.com/@gangnam_official/video/7153963373208636673?is_from_webapp=1&sender_device=pc&web_id=7160524814246577665" target="_blank" title="새창열림" class="sns-tiktok"> <span class="img"><img
                         src="//www.gangnam.go.kr/upload/preview/2022/10/31/55edb77c-3ad5-44ba-a390-e342882054df.jpg" alt="매봉산 산스장💪레그프레스부터 로잉머신까지🏋️‍♀️"></span> <span class="title">매봉산 산스장💪레그프레스부터 로잉머신까지🏋️‍♀️</span> </a> </li>
