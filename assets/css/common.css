@@ -2641,14 +2641,14 @@ input[type="radio"], input[type="checkbox"] {
   line-height: 30px;
 }
 
-ul.tabs {
+ul#tabs {
   margin: 0px;
   padding: 0px;
   list-style: none;
   overflow: hidden;
 }
 
-ul.tabs li {
+ul#tabs li {
   width: 25%;
   margin: 0;
   padding: 20px 0;
@@ -2659,19 +2659,19 @@ ul.tabs li {
   cursor: pointer;
 }
 
-ul.tabs li:nth-child(1).current {
+ul#tabs li:nth-child(1).current {
   background: #f7a541;
 }
 
-ul.tabs li:nth-child(2).current {
+ul#tabs li:nth-child(2).current {
   background: #3b9182;
 }
 
-ul.tabs li:nth-child(3).current {
+ul#tabs li:nth-child(3).current {
   background: #734472;
 }
 
-ul.tabs li:nth-child(4).current {
+ul#tabs li:nth-child(4).current {
   background: #436c92;
 }
 
@@ -5186,7 +5186,7 @@ body.menu-open .wrap .black-wrap {
 }
 
 @media screen and (max-width: 450px) {
-  ul.tabs li {
+  ul#tabs li {
     width: calc(50% - 2px);
     margin: 1px;
   }
@@ -6047,11 +6047,11 @@ body.menu-open .wrap .black-wrap {
   }
 }
 
-ul.tabs li:nth-child(1).current {
+ul#tabs li:nth-child(1).current {
   background: #3b9182;
 }
 
-ul.tabs li:nth-child(2).current {
+ul#tabs li:nth-child(2).current {
   background: #f7a541;
 }
 
@@ -6099,31 +6099,31 @@ ul.tabs li:nth-child(2).current {
   max-width: 640px;
 }
 
-ul.tabs li {
+ul#tabs li {
   color: #333;
   padding: 1px;
 }
 
-ul.tabs li>a {
+ul#tabs li>a {
   display: block;
   padding: 20px 0;
 }
 
-ul.tabs li.current {
+ul#tabs li.current {
   color: #fff;
 }
 
-ul.tabs li.current a {
+ul#tabs li.current a {
   font-weight: 600;
   text-decoration: underline;
   text-underline-position: under;
 }
 
-ul.tabs li:nth-child(1).current {
+ul#tabs li:nth-child(1).current {
   background: #207264;
 }
 
-ul.tabs li:nth-child(2).current {
+ul#tabs li:nth-child(2).current {
   background: #bc5103;
 }
 

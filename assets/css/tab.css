@@ -46,56 +46,34 @@
   display: none;
 }
 
-.htl-style li.tab-dp1.on>a,
-.htl-style li.tab-dp1.active>a {
-  font-weight: 700;
-}
 
 .htl-style li.tab-dp1.on>a:after {
   display: none;
 }
 
-.htl-style li.bg1.ac>a,
-.htl-style li.bg1.on>a,
-.htl-style li.bg1.active>a {
+.htl-style li.ac >a,
+.htl-style li.on >a,
+.htl-style li.active >a,
+.htl-style li.active:hover >a,
+ {
   font-weight: bold;
 }
 
-.htl-style li.bg2.ac>a,
-.htl-style li.bg2.on>a,
-.htl-style li.bg2.active>a {
+.htl-style li.ac>a,
+.htl-style li.on>a,
+.htl-style li.active>a,
+.htl-style li.active:hover >a,
+ {
   font-weight: 500;
   box-shadow: 0 -3px 0 0 #f6bebe inset;
 }
 
-.htl-style li.bg3.ac>a,
-.htl-style li.bg3.on>a,
-.htl-style li.bg3.active>a {
-  font-weight: 500;
-  box-shadow: 0 -3px 0 0 #f6bebe inset;
+.htl-style li.tab-dp1.on:first-child>a,
+.htl-style li.tab-dp1.active:first-child>a,
+.htl-style li.tab-dp1.active:first-child:hover>a {
+  font-weight: 700;
+  box-shadow: none;
 }
-
-.htl-style li.bg4.ac>a,
-.htl-style li.bg4.on>a,
-.htl-style li.bg4.active>a {
-  font-weight: 500;
-  box-shadow: 0 -3px 0 0 #f6bebe inset;
-}
-
-.htl-style li.bg5.ac>a,
-.htl-style li.bg5.on>a,
-.htl-style li.bg5.active>a {
-  font-weight: 500;
-  box-shadow: 0 -3px 0 0 #f6bebe inset;
-}
-
-.htl-style li.bg6.ac>a,
-.htl-style li.bg6.on>a,
-.htl-style li.bg6.active>a {
-  font-weight: 500;
-  box-shadow: 0 -3px 0 0 #f6bebe inset;
-}
-
 
 
 .ht-search {
