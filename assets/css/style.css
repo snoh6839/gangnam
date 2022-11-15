@@ -1689,6 +1689,9 @@ body {
   margin-right: 40px;
   max-height: 310px;
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .main_notice_area #tabs {
@@ -1696,6 +1699,8 @@ body {
   background: #fff;
   border-radius: 10px;
   padding: 20px 20px 34px;
+  max-height: 310px;
+  overflow: hidden;
 }
 
 .main_notice_area .notice-title {
@@ -1808,11 +1813,11 @@ body {
 }
 
 .main_notice_area .notice-slider {
-  padding: 0 10px;
+  padding: 5px 10px 40px;
 }
 
 .main_notice_area .notice-slider .item {
-  padding: 0 10px;
+  padding: 5px 10px 40px;
 }
 
 .main_notice_area .notice-slider .team {
