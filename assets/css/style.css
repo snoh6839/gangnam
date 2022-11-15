@@ -182,7 +182,7 @@ body {
   position: relative
 }
 
-.htl-style .tab-dp1:hover >a 
+.htl-style .tab-dp1:hover >a
  {
   font-weight: 500;
   box-shadow: 0 -3px 0 0 #f6bebe inset;
@@ -1682,6 +1682,7 @@ body {
   align-items: flex-start;
 }
 
+
 .main_notice_area {
   padding: 20px;
   width: calc(100% - 305px);
@@ -1852,6 +1853,7 @@ body {
 
 .main_notice_area .notice-slider .text {
   display: block;
+  /* position: relative; */
   font-size: 18px;
   font-size: 1.286em;
   font-weight: 600;
