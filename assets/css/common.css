@@ -2696,7 +2696,7 @@ ul#tabs li:nth-child(4).current {
   padding: 3px 0 0 12px;
   position: relative;
   display: inline-block;
-  background: url('/assets/images/main202208/h3_bullet.png') no-repeat top left;
+  background: url('../img/main/h3_bullet.png') no-repeat top left;
   box-shadow: none !important;
 }
 
@@ -2716,7 +2716,7 @@ ul#tabs li:nth-child(4).current {
 
 .contents h5 {
   position: relative;
-  background: url('/assets/images/main202208/h5_bullet.png') left 4px no-repeat;
+  background: url('../img/main/h5_bullet.png') left 4px no-repeat;
   padding-left: 22px;
   font-size: 20px;
   font-weight: 600;
@@ -2786,38 +2786,38 @@ ul#tabs li:nth-child(4).current {
 }
 
 .contents ul.list-depth1>li {
-  background: url('/assets/images/main202208/list-depth1_bullet.png') left 0px top 8px no-repeat;
+  background: url('../img/main/list-depth1_bullet.png') left 0px top 8px no-repeat;
   padding: 0 0 3px 20px;
   font-weight: 500;
   color: #333;
 }
 
 .contents ul.list-depth2>li {
-  background: url('/assets/images/main202208/list-depth2_bullet.png') left top 9px no-repeat;
+  background: url('../img/main/list-depth2_bullet.png') left top 9px no-repeat;
   color: #333;
   padding: 0 0 2px 12px;
 }
 
 .contents ul>li>ul>li {
-  background: url('/assets/images/main202208/list-depth2_bullet.png') left top 9px no-repeat;
+  background: url('../img/main/list-depth2_bullet.png') left top 9px no-repeat;
   color: #333;
   padding: 0 0 2px 12px;
 }
 
 .contents ul.list-depth3>li {
-  background: url('/assets/images/main202208/list-depth3_bullet.png') left top 12px no-repeat;
+  background: url('../img/main/list-depth3_bullet.png') left top 12px no-repeat;
   color: #333;
   padding: 0 0 2px 10px;
 }
 
 .contents ul>li>ul>li>ul>li {
-  background: url('/assets/images/main202208/list-depth3_bullet.png') left top 12px no-repeat;
+  background: url('../img/main/list-depth3_bullet.png') left top 12px no-repeat;
   color: #333;
   padding: 0 0 2px 10px;
 }
 
 .contents ul.list-depth4>li {
-  background: url('/assets/images/main202203/list-depth4_bullet.png') left 6px no-repeat;
+  background: url('../img/main/list-depth4_bullet.png') left 6px no-repeat;
   color: #333;
   padding: 0 0 2px 15px;
 }
@@ -8924,8 +8924,9 @@ textarea.form-control {
   text-align: right;
   font-weight: 600;
   border-radius: 5px;
-  background: #fbe300 url(/assets/images/main2021/kc_bnlogo.png) no-repeat left 10% center;
+  background: #fbe300 url(../img/main/kc_bnlogo.png) no-repeat left 10% center;
   margin: 0px 0 0 3px;
+  font-size: 14px;
 }
 
 .kc_qr {
