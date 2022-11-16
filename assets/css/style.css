@@ -187,10 +187,10 @@ body {
   box-shadow: 0 -3px 0 0 #f6bebe inset;
 }
 
-/* .htl-style li:first-child:hover>a {
+.htl-style li:first-child:hover>a {
   font-weight: 700;
   box-shadow: none;
-} */
+}
 .hd-top-wrap .htl-style ul li.tab-dp1 a {
   display: block;
   font-size: 14px;
