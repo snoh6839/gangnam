@@ -308,13 +308,13 @@ $(function(){
 	startProgressbar();
 
 
-	$(".main_notice_area #tabs").tabs({
+	$(".main_notice_area .tabs").tabs({
 		beforeActivate: function(event, ui) {
 			$(".active .notice-slider").slick("unslick");
 			$(".active .notice-slider_m").slick("unslick");
 		},
 		activate: function( event, ui ){
-			var activeTab = $(".main_notice_area #tabs").tabs('option', 'active');
+			var activeTab = $(".main_notice_area .tabs").tabs('option', 'active');
 			$(".notice-cont").removeClass("active");
 			$("#notice-" + (activeTab+1)).addClass("active");
 			$("#notice-" + (activeTab+1)).find(".notice-slider").slick(swSliderOption());
@@ -322,15 +322,15 @@ $(function(){
 			startProgressbar();
 		}
 	});
-	$('.main_notice_area > #tabs > .notice-title > li:eq(1) > a').trigger('click');
-	$('.main_notice_area > #tabs > .notice-title > li:eq(0) > a').trigger('click');
+	$('.main_notice_area > .tabs > .notice-title > li:eq(1) > a').trigger('click');
+	$('.main_notice_area > .tabs > .notice-title > li:eq(0) > a').trigger('click');
 
-	$(".main_notice_area2 #tabs").tabs({
+	$(".main_notice_area2 .tabs").tabs({
 		beforeActivate: function(event, ui) {
 			$(".active .notice-slider_m2").slick("unslick");
 		},
 		activate: function( event, ui ){
-			var activeTab = $(".main_notice_area2 #tabs").tabs('option', 'active');
+			var activeTab = $(".main_notice_area2 .tabs").tabs('option', 'active');
 			$(".notice-cont2").removeClass("active");
 			$("#notice2-" + (activeTab+1)).addClass("active");
 			$("#notice2-" + (activeTab+1)).find(".notice-slider_m2").slick(swSliderOptionM());
@@ -338,8 +338,8 @@ $(function(){
 			startProgressbar();
 		}
 	});
-	$('.main_notice_area2 > #tabs > .notice-title > li:eq(1) > a').trigger('click');
-	$('.main_notice_area2 > #tabs > .notice-title > li:eq(0) > a').trigger('click');
+	$('.main_notice_area2 > .tabs > .notice-title > li:eq(1) > a').trigger('click');
+	$('.main_notice_area2 > .tabs > .notice-title > li:eq(0) > a').trigger('click');
 
 	$('.comp-taps').tabs();
 })

@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" href="https://www.gangnam.go.kr/assets/images/icon/favicon.png?20220829">
   <link rel="stylesheet" href="./assets/css/initial.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/cc043764b2.js" crossorigin="anonymous"></script>
   <script src="./assets/slick/slick.js"></script>
   <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css">
@@ -834,187 +835,315 @@
       <section class="main_row">
         <div class="main_board_group inner">
           <div class="main_notice_area bg_gray2">
-            <div id="tabs">
-              <ul class="notice-title">
-                <li><a href="#notice-1">공지사항</a></li>
-                <li><a href="#notice-2">고시공고</a></li>
-                <li><a href="#notice-3">채용정보</a></li>
-                <li><a href="#notice-4">보도자료</a></li>
-                <li><a href="#notice-5">구정보도</a></li>
-              </ul>
-              <div id="notice-1" class="notice-cont">
-                <h4 class="blind">공지사항</h4> <button type="button" class="prev"></button>
-                <ul class="notice-slider">
-                  <li class="item">
-                    <p class="team"><span>교육지원과</span></p><a href="#" class="text">강남미래인재교육원 일반인 대상 특강 안내(11.12.토)</a> <span class="date">2022-11-10</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>일자리정책과</span></p><a href="#" class="text">강남구 청년 네트워크 「청년 취업 포럼」에 초대합니다!</a> <span class="date">2022-11-10</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>교통행정과</span></p><a href="#" class="text">2023학년도 수능시험 학부모의 마음으로!</a> <span class="date">2022-11-09</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>재난안전과</span></p><a href="#" class="text">이태원 사고 부상자 등 피해신고 접수 안내 </a> <span class="date">2022-11-09</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>세곡보건지소</span></p><a href="#" class="text">강남구 일반임기제공무원(9급,물리치료사) 채용공고</a> <span class="date">2022-11-07</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>세곡보건지소</span></p><a href="#" class="text">건강한 갱년기 맞이하기! 세곡보건지소 건강교실 특강</a> <span class="date">2022-11-07</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>보건행정과</span></p><a href="#" class="text">강남구 마음건강검진 및 「검진, 상담, 비용」 상담지원사업 안내(서울시민)</a> <span class="date">2022-11-06</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>보건행정과</span></p><a href="#" class="text">2022~23˝절기 인플루엔자(어르신,어린이, 임신부,의료취약층)국가예방접종 실시 안내(11.01.기준)</a> <span class="date">2022-11-06</span>
-                  </li>
-                </ul> <button type="button" class="next"></button>
-                <div class="slider-control notice-control">
-                  <div class="slider-count"> <span class="slider-current">1</span> <span class="progress_bar"> <strong class="bar"></strong> <span class="skip">비주얼 프로그레스바</span> </span> <span class="slider-total"></span> </div><a
-                    href="/board/B_000001/list.do" title="공지사항 더보기" class="more_red">더 볼게요</a>
-                </div>
-              </div>
-              <div id="notice-2" class="notice-cont">
-                <h4 class="blind">고시공고</h4>
-                <button type="button" class="prev"></button>
-                <ul class="notice-slider">
-                  <li class="item">
-                    <p class="team"><span>역삼1동</span></p><a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46688&amp;mid=ID05_0402" target="_self" class="text">거주불명등록자 행정상 관리주소 이전 공고(2차)</a> <span class="date">2022-11-11</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>자동차민원과</span></p><a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46685&amp;mid=ID05_0402" target="_self" class="text">무단방치 자동차 직권 말소등록 반송분 공시송달 공고</a> <span class="date">2022-11-11</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>역삼2동</span></p><a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46681&amp;mid=ID05_0402" target="_self" class="text">강남구 역삼2동 통장 모집 공고(4차)</a> <span class="date">2022-11-11</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>주차관리과</span></p><a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46680&amp;mid=ID05_0402" target="_self" class="text">거주자우선주차 부정주차요금 미납 건 공시송달 공고</a> <span class="date">2022-11-11</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>역삼1동</span></p><a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46678&amp;mid=ID05_0402" target="_self" class="text">주민등록 직권조치(거주불명등록) 결과 공고</a> <span class="date">2022-11-10</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>주차관리과</span></p><a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46676&amp;mid=ID05_0402" target="_self" class="text">주정차 위반 과태료 체납자 차량 압류통지서 반송분 공시송달 공고(22년 11월)</a> <span class="date">2022-11-11</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>건축과</span></p><a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46675&amp;mid=ID05_0402" target="_self" class="text">「대치동 900-64 근린생활시설 신축」안전점검 수행기관 지정 결과 공고</a> <span class="date">2022-11-10</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>주차관리과</span></p><a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46674&amp;mid=ID05_0402" target="_self" class="text">편의증진보장 위반과태료 사전통지서 공시송달 공고(10월)</a> <span class="date">2022-11-10</span>
-                  </li>
-                </ul> <button type="button" class="next"></button>
-                <div class="slider-control notice-control">
-                  <div class="slider-count"> <span class="slider-current">1</span> <span class="progress_bar"> <strong class="bar"></strong> <span class="skip">비주얼 프로그레스바</span> </span> <span class="slider-total"></span> </div><a
-                    href="/contents/notice/1/view.do" title="고시공고 더보기" class="more_red">더 볼게요</a>
-                </div>
-              </div>
-              <div id="notice-3" class="notice-cont">
-                <h4 class="blind">채용정보</h4> <button type="button" class="prev"></button>
-                <ul class="notice-slider">
-                  <li class="item">
-                    <p class="team"><span>건강관리과</span></p><a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46682&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">강남구보건소 자살 유족 지원사업 기간제 근로자 채용 공고</a> <span
-                      class="date">2022-11-11</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>총무과</span></p><a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46666&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">서울특별시 강남구 청원경찰 서류전형 합격자 및 면접시험 공고</a> <span
-                      class="date">2022-11-10</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>질병관리과</span></p><a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46654&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">감염병 예방관리분야 기간제근로자 채용</a> <span class="date">2022-11-10</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>질병관리과</span></p><a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46650&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">강남구보건소 질병관리과 기간제 근로자 최종 합격자 공고.</a> <span
-                      class="date">2022-11-10</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>건강관리과</span></p><a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46641&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">강남구보건소 건강관리과 의료비지원사업 기간제근로자 채용공고</a> <span
-                      class="date">2022-11-08</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>건강관리과</span></p><a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46640&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">강남구보건소 건강관리과 모자보건사업 기간제근로자(간호사) 채용공고</a> <span
-                      class="date">2022-11-08</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>주차관리과</span></p><a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46634&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">강남구 시간선택제임기제공무원 채용시험 주차단속분야 실기시험(주행평가) 합격자 발표 및 면접시험 일정 공고</a> <span
-                      class="date">2022-11-08</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>질병관리과</span></p><a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46622&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">강남구보건소 대사증후군관리사업 시간선택제임기제공무원 (마급) 채용공고</a> <span
-                      class="date">2022-11-07</span>
-                  </li>
-                </ul> <button type="button" class="next"></button>
-                <div class="slider-control notice-control">
-                  <div class="slider-count"> <span class="slider-current">1</span> <span class="progress_bar"> <strong class="bar"></strong> <span class="skip">비주얼 프로그레스바</span> </span> <span class="slider-total"></span> </div><a
-                    href="/contents/employment/1/view.do" title="채용공고 더보기" class="more_red">더 볼게요</a>
-                </div>
-              </div>
-              <div id="notice-4" class="notice-cont">
-                <h4 class="blind">보도자료</h4> <button type="button" class="prev"></button>
-                <ul class="notice-slider">
-                  <li class="item">
-                    <p class="team"><span>뉴디자인과</span></p><a href="/board/B_000031/1072798/view.do" target="_self" class="text">예쁜 벤치 다 모여라! 강남구 테헤란로·가로수길에 이색 벤치 설치</a> <span class="date">2022-11-11</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>도시계획과</span></p><a href="/board/B_000031/1072797/view.do" target="_self" class="text">강남구, 불법 전단지 및 마약 근절 합동 캠페인 실시 </a> <span class="date">2022-11-11</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>정책홍보실</span></p><a href="/board/B_000031/1072796/view.do" target="_self" class="text">강남구, 양재천 ‘걷고 싶은 거리’ 시즌2 탄생!</a> <span class="date">2022-11-09</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>공원녹지과</span></p><a href="/board/B_000031/1072794/view.do" target="_self" class="text">강남구, 가을철 산불방지 종합대책본부 운영...열감지 CCTV 첫도입</a> <span class="date">2022-11-08</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>세무관리과</span></p><a href="/board/B_000031/1072793/view.do" target="_self" class="text">강남구, 지방세 1313억원 환급 완료...미지급 환급금 18억원 연말까지 일제 정비 </a> <span class="date">2022-11-07</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>뉴디자인과</span></p><a href="/board/B_000031/1072792/view.do" target="_self" class="text">지구를 지키는 착한 공존, 강남구 ‘2022 아트프라이즈 강남’ 개막</a> <span class="date">2022-11-06</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>건강관리과</span></p><a href="/board/B_000031/1072791/view.do" target="_self" class="text">강남구, 이태원 사고 관련 외상 스트레스 등 심리지원 서비스 제공</a> <span class="date">2022-11-04</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>주차관리과</span></p><a href="/board/B_000031/1072790/view.do" target="_self" class="text">삼성동 맛의 거리 주차 쉬워진다...강남구, 무역협회 주차장 개방 업무 협약</a> <span class="date">2022-11-03</span>
-                  </li>
-                </ul> <button type="button" class="next"></button>
-                <div class="slider-control notice-control">
-                  <div class="slider-count"> <span class="slider-current">1</span> <span class="progress_bar"> <strong class="bar"></strong> <span class="skip">비주얼 프로그레스바</span> </span> <span class="slider-total"></span> </div><a
-                    href="/board/B_000031/list.do" title="보도자료 더보기" class="more_red">더 볼게요</a>
-                </div>
-              </div>
-              <div id="notice-5" class="notice-cont">
-                <h4 class="blind">구청보도</h4> <button type="button" class="prev"></button>
-                <ul class="notice-slider">
-                  <li class="item">
-                    <p class="team"><span>서울신문</span></p><a href="https://go.seoul.co.kr/news/newsView.php?id=20221108010033" target="_blank" class="text">강남, 지방세 1313억원 납세자에게 환급</a> <span class="date">2022-11-08</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>매일경제</span></p><a href="https://www.mk.co.kr/news/business/10522432" target="_blank" class="text">강남도 ‘모아타운’…일원동 대청마을 최종 선정</a> <span class="date">2022-11-09</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>헤럴드경제</span></p><a href="http://news.heraldcorp.com/view.php?ud=20221108000449" target="_blank" class="text">산불 대응 ‘열감지 CCTV’ 도입</a> <span class="date">2022-11-09</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>헤럴드경제</span></p><a href="http://news.heraldcorp.com/view.php?ud=20221104000057" target="_blank" class="text">강남구, 이태원 사고 외상 스트레스 등 심리지원 서비스 제공</a> <span class="date">2022-11-07</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>뉴스1</span></p><a href="https://www.news1.kr/articles/4857896" target="_blank" class="text">“오늘 발효밥상 먹어볼까”…강남구 ‘건강밥 챌린지’ 운영</a> <span class="date">2022-11-09</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>시민일보</span></p><a href="https://www.siminilbo.co.kr/news/newsview.php?ncode=1160286382332285" target="_blank" class="text">강남구, 종합 예술경연대회 선정작 전시</a> <span class="date">2022-11-08</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>조선일보</span></p><a href="https://www.chosun.com/special/special_section/2022/11/07/4Q46LI7XRRHAFOTTLQP3ZHRRSA/" target="_blank" class="text">압구정 나룻배, 아파트 앞 쟁기질... 그땐 그랬지</a> <span
-                      class="date">2022-11-07</span>
-                  </li>
-                  <li class="item">
-                    <p class="team"><span>KBS</span></p><a href="https://news.kbs.co.kr/news/view.do?ncd=5595890&ref=A" target="_blank" class="text">강남 침수·태풍에도 손보업계 ‘호실적’…자동차 보험료 내린다</a> <span class="date">2022-11-09</span>
-                  </li>
-                </ul> <button type="button" class="next"></button>
+  					<div class="tabs">
+  						<ul class="notice-title">
+  							<li><a href="#notice-1">공지사항</a></li>
+  							<li><a href="#notice-2">고시공고</a></li>
+  							<li><a href="#notice-3">채용정보</a></li>
+  							<li><a href="#notice-4">보도자료</a></li>
+  							<li><a href="#notice-5">구정보도</a></li>
+  						</ul>
+  						<div id="notice-1" class="notice-cont">
+  							<h4 class="blind">공지사항</h4>
+  							<button type="button" class="prev">이전보기</button>
+  							<ul class="notice-slider">
+  									<li class="item">
+  										<p class="team"><span>보건행정과</span></p>
+  										<a href="/board/B_000001/1074259/view.do" target="_self" class="text">강남구보건소 이용 만족도 조사 2022.11.21(월)~11.30(수)</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>도시계획과</span></p>
+  										<a href="/board/B_000001/1074257/view.do" target="_self" class="text">2022년 제6회 강남구 도시계획위원회 개최결과</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>질병관리과</span></p>
+  										<a href="/board/B_000001/1074256/view.do" target="_self" class="text">코로나-19확진자 대상 시험목적의 외출허용 공지 및 이동지원 관련 안내(23학년도 대학수학능력시험)</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>도로관리과</span></p>
+  										<a href="/board/B_000001/1074255/view.do" target="_self" class="text">2022년/2023년 제설대책 홍보</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>보건행정과</span></p>
+  										<a href="/board/B_000001/1074056/view.do" target="_self" class="text">강남구 「코로나19백신 사전예약」예약접종·당일접종 실시(11.14기준)</a>
+  										<span class="date">2022-11-14</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>위생과</span></p>
+  										<a href="/board/B_000001/1074253/view.do" target="_self" class="text">서울시 식품정책과 11월 음식점 위생 및 지도서비스 시행 알림</a>
+  										<span class="date">2022-11-11</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>보건행정과</span></p>
+  										<a href="/board/B_000001/1074252/view.do" target="_self" class="text">수능 전날(11/16) RAT(신속항원검사) 야간 검사 가능 의료기관 안내</a>
+  										<span class="date">2022-11-11</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>질병관리과</span></p>
+  										<a href="/board/B_000001/1074251/view.do" target="_self" class="text">코로나-19확진자 대상 시험목적의 외출허용 공지</a>
+  										<span class="date">2022-11-11</span>
+  									</li>
 
-              </div>
-            </div>
-          </div>
+  							</ul>
+  							<button type="button" class="next">다음보기</button>
+  							<div class="slider-control notice-control">
+  								<div class="slider-count">
+  									<span class="slider-current">1</span>
+  									<span class="progress_bar">
+  										<strong class="bar"></strong>
+  										<span class="skip">비주얼 프로그레스바</span>
+  									</span>
+  									<span class="slider-total"></span>
+  								</div>
+  								<a href="/board/B_000001/list.do" title="공지사항 더보기" class="more_red">더 볼게요</a>
+  							</div>
+  						</div>
+  						<div id="notice-2" class="notice-cont">
+  							<h4 class="blind">고시공고</h4>
+  							<button type="button" class="prev">이전보기</button>
+  							<ul class="notice-slider">
+
+  									<li class="item">
+  										<p class="team"><span>도곡1동</span></p>
+  										<a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46726&amp;mid=ID05_0402" target="_self" class="text">주민등록 무단전출자 최고공고</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+
+  									<li class="item">
+  										<p class="team"><span>도곡1동</span></p>
+  										<a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46725&amp;mid=ID05_0402" target="_self" class="text">거주불명등록자 행정상관리주소이전 직권조치 결과 공고</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+
+  									<li class="item">
+  										<p class="team"><span>건축과</span></p>
+  										<a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46723&amp;mid=ID05_0402" target="_self" class="text">강남구 건축위원회 위원 공개모집 공고</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+
+  									<li class="item">
+  										<p class="team"><span>정책홍보실</span></p>
+  										<a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46721&amp;mid=ID05_0402" target="_self" class="text">2023년 강남구 소식지(강남라이프) 제작 용역</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+
+  									<li class="item">
+  										<p class="team"><span>세곡동</span></p>
+  										<a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46720&amp;mid=ID05_0402" target="_self" class="text">세곡동 율현공원 별빛축제 기획 운영 용역사업자 제안서 평가결과 공고</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+
+  									<li class="item">
+  										<p class="team"><span>공동주택과</span></p>
+  										<a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46716&amp;mid=ID05_0402" target="_self" class="text">위반건축물 시정명령 이행촉구 반송분 공시송달 공고(개포동,역삼동)</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+
+  									<li class="item">
+  										<p class="team"><span>도로관리과</span></p>
+  										<a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46715&amp;mid=ID05_0402" target="_self" class="text">급경사지 이면도로 열선 설치사업(시비 2차) 신기술・특허 공법선정 정량평가 결과 공고</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>논현1동</span></p>
+  										<a href="/contents/notice/1/view.do?not_ancmt_mgt_no=46712&amp;mid=ID05_0402" target="_self" class="text">주민등록 거주불명등록자 행정상 관리주소 이전 2차 공고</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+  							</ul>
+  							<button type="button" class="next">다음보기</button>
+  							<div class="slider-control notice-control">
+  								<div class="slider-count">
+  									<span class="slider-current">1</span>
+  									<span class="progress_bar">
+  										<strong class="bar"></strong>
+  										<span class="skip">비주얼 프로그레스바</span>
+  									</span>
+  									<span class="slider-total"></span>
+  								</div>
+  								<a href="/contents/notice/1/view.do" title="고시공고 더보기" class="more_red">더 볼게요</a>
+  							</div>
+  						</div>
+  						<div id="notice-3" class="notice-cont">
+  							<h4 class="blind">채용정보</h4>
+  							<button type="button" class="prev">이전보기</button>
+  							<ul class="notice-slider">
+  									<li class="item">
+  										<p class="team"><span>질병관리과</span></p>
+  										<a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46717&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">강남구보건소 질병관리과 시간선택제임기제 마급 채용 서류전형 결과 및 면접일시 공고</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>주차관리과</span></p>
+  										<a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46707&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">시간선택제임기제 공무원(주차단속분야) 마급 채용 면접시험 합격자 및 합격자 등록 안내</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>건설관리과</span></p>
+  										<a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46703&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">서울특별시 강남구 시간선택제 임기제공무원(마급) 채용(가로정비 분야) 재공고</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+
+  									<li class="item">
+  										<p class="team"><span>건강관리과</span></p>
+  										<a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46682&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">강남구보건소 자살 유족 지원사업 기간제 근로자 채용 공고</a>
+  										<span class="date">2022-11-11</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>총무과</span></p>
+  										<a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46666&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">서울특별시 강남구 청원경찰 서류전형 합격자 및 면접시험 공고</a>
+  										<span class="date">2022-11-10</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>질병관리과</span></p>
+  										<a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46654&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">감염병 예방관리분야 기간제근로자 채용</a>
+  										<span class="date">2022-11-10</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>주차관리과</span></p>
+  										<a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46634&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">강남구 시간선택제임기제공무원 채용시험 주차단속분야 실기시험(주행평가) 합격자 발표 및 면접시험 일정 공고</a>
+  										<span class="date">2022-11-08</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>질병관리과</span></p>
+  										<a href="/contents/employment/1/view.do?not_ancmt_mgt_no=46622&amp;mid=ID05_0418&gubunfield=05" target="_self" class="text">강남구보건소 대사증후군관리사업 시간선택제임기제공무원 (마급) 채용공고</a>
+  										<span class="date">2022-11-07</span>
+  									</li>
+  							</ul>
+  							<button type="button" class="next">다음보기</button>
+  							<div class="slider-control notice-control">
+  								<div class="slider-count">
+  									<span class="slider-current">1</span>
+  									<span class="progress_bar">
+  										<strong class="bar"></strong>
+  										<span class="skip">비주얼 프로그레스바</span>
+  									</span>
+  									<span class="slider-total"></span>
+  								</div>
+  								<a href="/contents/employment/1/view.do" title="채용공고 더보기" class="more_red">더 볼게요</a>
+  							</div>
+  						</div>
+  						<div id="notice-4" class="notice-cont">
+  							<h4 class="blind">보도자료</h4>
+  							<button type="button" class="prev">이전보기</button>
+  							<ul class="notice-slider">
+  									<li class="item">
+  										<p class="team"><span>복지정책과</span></p>
+  										<a href="/board/B_000031/1072804/view.do" target="_self" class="text">강남구, 지자체 최초 ‘스마트 사랑의 온도탑’으로 따뜻한 겨울나기 모금</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>도로관리과</span></p>
+  										<a href="/board/B_000031/1072803/view.do" target="_self" class="text">강남구, 친환경·스마트 제설 종합대책 본격 가동!</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>재난안전과</span></p>
+  										<a href="/board/B_000031/1072802/view.do" target="_self" class="text"> 강남구, 수능·연말연시 맞아 다중밀집지역 특별 현장점검 실시</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>교통행정과</span></p>
+  										<a href="/board/B_000031/1072801/view.do" target="_self" class="text"> 강남구, 19개 수능시험장 1만1640명 수험생 위한 특별교통대책 추진</a>
+  										<span class="date">2022-11-15</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>여성가족과</span></p>
+  										<a href="/board/B_000031/1072800/view.do" target="_self" class="text">강남구, ‘한방에 쑥쑥’ 사업...취약계층 아동 성장발달 지원 </a>
+  										<span class="date">2022-11-14</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>스마트도시과</span></p>
+  										<a href="/board/B_000031/1072799/view.do" target="_self" class="text">강남구 ‘스마트 행정서비스’로 행안부 혁신 챔피언 인증 </a>
+  										<span class="date">2022-11-14</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>뉴디자인과</span></p>
+  										<a href="/board/B_000031/1072798/view.do" target="_self" class="text">예쁜 벤치 다 모여라! 강남구 테헤란로·가로수길에 이색 벤치 설치</a>
+  										<span class="date">2022-11-11</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>도시계획과</span></p>
+  										<a href="/board/B_000031/1072797/view.do" target="_self" class="text">강남구, 불법 전단지 및 마약 근절 합동 캠페인 실시 </a>
+  										<span class="date">2022-11-11</span>
+  									</li>
+  							</ul>
+  							<button type="button" class="next">다음보기</button>
+  							<div class="slider-control notice-control">
+  								<div class="slider-count">
+  									<span class="slider-current">1</span>
+  									<span class="progress_bar">
+  										<strong class="bar"></strong>
+  										<span class="skip">비주얼 프로그레스바</span>
+  									</span>
+  									<span class="slider-total"></span>
+  								</div>
+  								<a href="/board/B_000031/list.do" title="보도자료 더보기" class="more_red">더 볼게요</a>
+  							</div>
+  						</div>
+  						<div id="notice-5" class="notice-cont">
+  							<h4 class="blind">구정보도</h4>
+  							<button type="button" class="prev">이전보기</button>
+  							<ul class="notice-slider">
+  									<li class="item">
+  										<p class="team"><span>전국매일</span></p>
+  										<a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=924020" target="_blank" class="text">조성명 강남구청장 “꿈이 모이는 도시, 미래를 그리는 강남” 제시</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>서울경제</span></p>
+  										<a href="https://www.sedaily.com/NewsView/26DMX7IAVC" target="_blank" class="text">서울 강남구, 연말연시 다중밀집지역 특별점검</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>서울신문</span></p>
+  										<a href="https://go.seoul.co.kr/news/newsView.php?id=20221116011005" target="_blank" class="text">스마트 행정서비스 ‘더강남’ 행안부 혁신사례 선정</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>뉴스1</span></p>
+  										<a href="https://www.news1.kr/photos/view/?5685928" target="_blank" class="text">강남구, 불법 전단지 및 마약 근절 합동 캠페인 실시</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>아시아경제</span></p>
+  										<a href="https://view.asiae.co.kr/article/2022111119592661420" target="_blank" class="text">예쁜 벤치 다 모여라! ... 강남구 테헤란로·가로수길 이색 벤치 설치</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>헤럴드경제</span></p>
+  										<a href="http://news.heraldcorp.com/view.php?ud=20221115000074" target="_blank" class="text">교통안전지수 최우수 세종·과천·화천…강남구는 개선율↑</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>시민일보</span></p>
+  										<a href="https://www.siminilbo.co.kr/news/newsview.php?ncode=1160286530525423" target="_blank" class="text">강남구, 문화재단 직원에 재난 대비 소방안전 교육</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  									<li class="item">
+  										<p class="team"><span>기타</span></p>
+  										<a href="https://sports.khan.co.kr/bizlife/sk_index.html?art_id=202211141825003" target="_blank" class="text">강남문화재단, ‘N개의 서울 X 아트트라이앵글 페스티벌’ 개최</a>
+  										<span class="date">2022-11-16</span>
+  									</li>
+  							</ul>
+  							<button type="button" class="next">다음보기</button>
+  							<div class="slider-control notice-control">
+  								<div class="slider-count">
+  									<span class="slider-current">1</span>
+  									<span class="progress_bar">
+  										<strong class="bar"></strong>
+  										<span class="skip">비주얼 프로그레스바</span>
+  									</span>
+  									<span class="slider-total"></span>
+  								</div>
+  								<!-- <a href="/board/B_000031/list.do" title="구정보도 더보기" class="more_red">더 볼게요</a> -->
+  							</div>
+  						</div>
+  					</div><!-- //tabs -->
+  				</div>
           <div class="main_photo_area">
             <div class="contTitle"> 구민과 <span class="point">함께</span> <a href="/leader/board/leader_8th_photo/list.do" title="구민과 함께 더보기(새창열기)" class="more_gray"></a> </div>
             <div class="photo_slider_area">
